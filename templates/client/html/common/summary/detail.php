@@ -21,7 +21,7 @@ $detailTarget = $this->config( 'client/html/catalog/detail/url/target' );
 $detailController = $this->config( 'client/html/catalog/detail/url/controller', 'catalog' );
 $detailAction = $this->config( 'client/html/catalog/detail/url/action', 'detail' );
 $detailConfig = $this->config( 'client/html/catalog/detail/url/config', ['absoluteUri' => 1] );
-$detailFilter = array_flip( $this->config( 'client/html/catalog/detail/url/filter', ['d_prodid'] ) );
+$detailFilter = array_flip( $this->config( 'client/html/catalog/detail/url/filter', [] ) );
 unset( $detailFilter['d_prodid'] ); // product name isn't suitable because different from URL
 
 /** client/html/account/download/url/target
