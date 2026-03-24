@@ -49,6 +49,11 @@ class Exceptions extends Base implements Iface
 			$error = [$context->translate( 'controller/frontend', $e->getMessage() )];
 			$view->errors = array_merge( $view->get( 'errors', [] ), $error );
 		}
+		catch( \Aimeos\MShop\Plugin\Provider\Exception $e )
+		{
+			$error = [$context->translate( 'mshop', $e->getMessage() )];
+			$view->errors = array_merge( $view->get( 'errors', [] ), $error );
+		}
 		catch( \Aimeos\MShop\Exception $e )
 		{
 			if( $e->getCode() >= 400 ) {
@@ -128,6 +133,11 @@ class Exceptions extends Base implements Iface
 			}
 
 			$error = array( $context->translate( 'controller/frontend', $e->getMessage() ) );
+			$view->errors = array_merge( $view->get( 'errors', [] ), $error );
+		}
+		catch( \Aimeos\MShop\Plugin\Provider\Exception $e )
+		{
+			$error = array( $context->translate( 'mshop', $e->getMessage() ) );
 			$view->errors = array_merge( $view->get( 'errors', [] ), $error );
 		}
 		catch( \Aimeos\MShop\Exception $e )

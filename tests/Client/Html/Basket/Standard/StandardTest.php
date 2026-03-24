@@ -329,9 +329,8 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		$helper = new \Aimeos\Base\View\Helper\Param\Standard( $this->view, $param );
 		$this->view->addHelper( 'param', $helper );
 
+		$this->expectException( \Aimeos\MShop\Order\Exception::class );
 		$this->object->init();
-
-		$this->assertEquals( 1, count( $this->view->get( 'errors', [] ) ) );
 	}
 
 
