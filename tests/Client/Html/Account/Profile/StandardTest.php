@@ -71,5 +71,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 	public function testInit()
 	{
 		$this->object->init();
+		$this->expectNotToPerformAssertions();
 	}
 }

@@ -121,6 +121,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 			->setConstructorArgs( [$this->context] )
 			->onlyMethods( ['processPayment'] )
 			->getMock();
+		$object->expects( $this->once() )->method( 'processPayment' )->willReturn( null );
 		$object->setView( $this->view );
 
 		$basketMock = $this->getMockBuilder( \Aimeos\Controller\Frontend\Basket\Standard::class )

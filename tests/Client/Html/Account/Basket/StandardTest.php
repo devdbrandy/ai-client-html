@@ -80,5 +80,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		$this->object->setView( $this->object->data( $this->view ) );
 
 		$this->object->init();
+		$this->expectNotToPerformAssertions();
 	}
 }

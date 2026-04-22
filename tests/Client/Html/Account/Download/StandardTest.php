@@ -92,7 +92,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		\Aimeos\MShop::inject( '\\Aimeos\\MShop\\Order\\Manager\\Product\\Attribute\\Standard', $attrManagerStub );
 
 
-		$stream = $this->getMockBuilder( \Psr\Http\Message\StreamInterface::class )->getMock();
+		$stream = $this->createStub( \Psr\Http\Message\StreamInterface::class );
 		$response = $this->getMockBuilder( \Psr\Http\Message\ResponseInterface::class )->getMock();
 		$response->expects( $this->exactly( 7 ) )->method( 'withHeader' )->willReturnSelf();
 
@@ -147,7 +147,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		$item->setName( 'test download' );
 
 
-		$stream = $this->getMockBuilder( \Psr\Http\Message\StreamInterface::class )->getMock();
+		$stream = $this->createStub( \Psr\Http\Message\StreamInterface::class );
 		$response = $this->getMockBuilder( \Psr\Http\Message\ResponseInterface::class )->getMock();
 		$response->expects( $this->exactly( 7 ) )->method( 'withHeader' )->willReturnSelf();
 
