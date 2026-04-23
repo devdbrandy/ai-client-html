@@ -28,9 +28,9 @@ class ExampleTest extends \PHPUnit\Framework\TestCase
 		$this->view = \TestHelper::view();
 		$this->context = \TestHelper::context();
 
-		$client = new \Aimeos\Client\Html\Catalog\Filter\Standard( $this->context, [] );
+		$client = new \Aimeos\Client\Html\Catalog\Filter\Standard( $this->context );
 
-		$this->object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context, [] );
+		$this->object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context );
 		$this->object->setView( $this->view );
 	}
 
@@ -45,12 +45,12 @@ class ExampleTest extends \PHPUnit\Framework\TestCase
 	{
 		$client = $this->getMockBuilder( CatalogFilterStub::class )
 			->onlyMethods( ['testMethod'] )
-			->setConstructorArgs( array( $this->context, [] ) )
+			->setConstructorArgs( array( $this->context ) )
 			->getMock();
 
 		$client->expects( $this->once() )->method( 'testMethod' )->willReturn( true );
 
-		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context, [] );
+		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context );
 		$object->setView( $this->view );
 
 		$this->assertTrue( $object->testMethod() );
@@ -67,12 +67,12 @@ class ExampleTest extends \PHPUnit\Framework\TestCase
 	{
 		$client = $this->getMockBuilder( \Aimeos\Client\Html\Catalog\Filter\Standard::class )
 			->onlyMethods( ['header'] )
-			->setConstructorArgs( array( $this->context, [] ) )
+			->setConstructorArgs( array( $this->context ) )
 			->getMock();
 
 		$client->expects( $this->once() )->method( 'header' )->willReturn( 'header' );
 
-		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context, [] );
+		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context );
 		$object->setView( $this->view );
 
 		$this->assertEquals( 'header', $object->header() );
@@ -83,12 +83,12 @@ class ExampleTest extends \PHPUnit\Framework\TestCase
 	{
 		$client = $this->getMockBuilder( \Aimeos\Client\Html\Catalog\Filter\Standard::class )
 			->onlyMethods( ['body'] )
-			->setConstructorArgs( array( $this->context, [] ) )
+			->setConstructorArgs( array( $this->context ) )
 			->getMock();
 
 		$client->expects( $this->once() )->method( 'body' )->willReturn( 'body' );
 
-		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context, [] );
+		$object = new \Aimeos\Client\Html\Common\Decorator\Example( $client, $this->context );
 		$object->setView( $this->view );
 
 		$this->assertEquals( 'body', $object->body() );
