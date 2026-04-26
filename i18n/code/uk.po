@@ -1,104 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# 
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Aimeos, 2025
-# Aimeos, 2025
-# Федір Вільгота <fredy31415@gmail.com>, 2019
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: uk\n"
+"Language-Team: Ukrainian (http://app.transifex.com/aimeos/aimeos-core/language/uk/)\n"
+"Last-Translator: Федір Вільгота <fredy31415@gmail.com>, 2019\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"Last-Translator: Федір Вільгота <fredy31415@gmail.com>, 2019\n"
-"Language-Team: Ukrainian (http://app.transifex.com/aimeos/aimeos-core/language/uk/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-
-#. Tax name
-msgid "tax"
-msgstr "ПДВ"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "ПДВ PST"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "ПДВ GST"
-
-#. Price type default
-msgid "price:default"
-msgstr "%1$s %2$s"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
-
-#. Favorite action
-msgid "favorite"
-msgstr "улюблений"
-
-#. Pin action
-msgid "pin"
-msgstr "шпилька"
-
-#. Watch action
-msgid "watch"
-msgstr "годинник"
-
-#. Product attribute
-msgid "size"
-msgstr "Розмір"
-
-#. Product attribute
-msgid "length"
-msgstr "Довжина"
-
-#. Product attribute
-msgid "width"
-msgstr "Ширина"
 
 #. Product attribute
 msgid "color"
 msgstr "Колір"
 
-#. Product attribute
-msgid "option"
-msgstr "Параметр"
+#. Pick-up date
+msgid "date.value"
+msgstr "Дата забирання"
 
-#. Product property package-length
-msgid "package-length"
-msgstr "довжина пакета"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "ширина пакета"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "висота упаковки"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "вага упаковки"
-
-#. Direct debit service provider
-msgid "directdebit.accountowner"
-msgstr "Власник аккаунта"
+#. Delivery type
+msgid "delivery.type"
+msgstr "Тип доставки"
 
 #. Direct debit service provider
 msgid "directdebit.accountno"
 msgstr "Номер аккаунта"
+
+#. Direct debit service provider
+msgid "directdebit.accountowner"
+msgstr "Власник аккаунта"
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -108,13 +40,33 @@ msgstr "Код банку"
 msgid "directdebit.bankname"
 msgstr "Назва банку"
 
-#. Omnipay service provider
-msgid "payment.firstname"
-msgstr "Ім'я"
+#. Favorite action
+msgid "favorite"
+msgstr "улюблений"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "Прізвище"
+#. Product attribute
+msgid "length"
+msgstr "Довжина"
+
+#. Product attribute
+msgid "option"
+msgstr "Параметр"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "висота упаковки"
+
+#. Product property package-length
+msgid "package-length"
+msgstr "довжина пакета"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "вага упаковки"
+
+#. Product property package-width
+msgid "package-width"
+msgstr "ширина пакета"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -125,6 +77,10 @@ msgid "payment.cvv"
 msgstr "Номер верифікації"
 
 #. Omnipay service provider
+msgid "payment.expiry"
+msgstr "Термін дії (ММРР)"
+
+#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "Місяць закінчення терміну дії"
 
@@ -133,25 +89,57 @@ msgid "payment.expiryyear"
 msgstr "Рік закінчення терміну дії"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "Термін дії (ММРР)"
+msgid "payment.firstname"
+msgstr "Ім'я"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "Дата забирання"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "Прізвище"
 
-#. Pick-up time
-msgid "time.hourminute"
-msgstr "Час забирання"
+#. Pin action
+msgid "pin"
+msgstr "шпилька"
 
-#. Pick-up location
-msgid "supplier.code"
-msgstr "код постачальника"
+#. Price type default
+msgid "price:default"
+msgstr "%1$s %2$s"
+
+#. Product attribute
+msgid "size"
+msgstr "Розмір"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
 
 #. Pick-up location
 msgid "supplier.address"
 msgstr "Адреса самовивозу"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "Тип доставки"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "код постачальника"
+
+#. Tax name
+msgid "tax"
+msgstr "ПДВ"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "ПДВ GST"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "ПДВ PST"
+
+#. Pick-up time
+msgid "time.hourminute"
+msgstr "Час забирання"
+
+#. Watch action
+msgid "watch"
+msgstr "годинник"
+
+#. Product attribute
+msgid "width"
+msgstr "Ширина"

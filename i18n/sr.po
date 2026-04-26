@@ -1,23 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# danijel marinovic <danijel06@gmail.com>, 2015
-# Mario Domonji <mario.mk.gromovi@gmail.com>, 2015
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sr\n"
+"Language-Team: Serbian (http://app.transifex.com/aimeos/aimeos-core/language/sr/)\n"
+"Last-Translator: Mario Domonji <mario.mk.gromovi@gmail.com>, 2015\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: Mario Domonji <mario.mk.gromovi@gmail.com>, 2015\n"
-"Language-Team: Serbian (http://app.transifex.com/aimeos/aimeos-core/language/sr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, php-format
 msgid "%1$d article"
@@ -29,9 +22,9 @@ msgstr[2] "%1$d proizvoda"
 #, php-format
 msgid "%1$d review"
 msgid_plural "%1$d reviews"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1$d преглед"
+msgstr[1] "%1$d прегледа"
+msgstr[2] "%1$d прегледа"
 
 #, php-format
 msgid ""
@@ -48,7 +41,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
-msgstr "%1$s\n%2$s %3$s %4$s %5$s\n%6$s %7$s\n%8$s\n%9$s %10$s\n%11$s\n%12$s\n%13$s\n%14$s\n%15$s\n%16$s\n%17$s\n%18$s\n"
+""
+msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -66,7 +74,23 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
@@ -78,7 +102,7 @@ msgstr "%1$s %2$s popusta"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
@@ -89,38 +113,38 @@ msgid "%1$s%3$s + %2$s%3$s"
 msgstr "%1$s%3$s + %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(отвара се у новом прозору)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
-msgstr ""
+msgstr "+ %1$s%% %2$s"
 
 #, php-format
 msgid "+ %1$s%% VAT"
-msgstr ""
+msgstr "+ %1$s%% ПДВ"
 
 msgid "+1 123 456 7890"
-msgstr ""
+msgstr "+1 123 456 7890"
 
 #, php-format
 msgid "-%1$s%%"
 msgstr "-%1$s%%"
 
 msgid "A non-recoverable error occured"
-msgstr ""
+msgstr "Дошло је до нереципрочне грешке."
 
 msgid "Add"
 msgstr "Dodaj"
 
 msgid "Add billing address"
-msgstr ""
+msgstr "Додајте адресу за наплату"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "Додајте адресу испоруке"
 
 msgid "Add to basket"
 msgstr "Dodaj u korpu"
@@ -133,20 +157,20 @@ msgstr "Dodatno 2"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Адреса дела \"%1$s\" је неважећа"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Адреса делова \"%1$s\" недостаје"
 
 msgid "Apply"
-msgstr ""
+msgstr "Примени"
 
 msgid "Article"
-msgstr ""
+msgstr "Чланак"
 
 msgid "Article no."
-msgstr ""
+msgstr "Број артикла"
 
 #, php-format
 msgid "At least one billing address part is missing or invalid"
@@ -158,10 +182,10 @@ msgstr "Barem jedan deo adrese za isporuku je pogresan ili nedostaje"
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "Најмање један део адресе за плаћање недостаје или је неважећи."
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "Барем један производ није могао да се дода у корпу."
 
 msgid "Back"
 msgstr "Nazad"
@@ -170,13 +194,13 @@ msgid "Basket"
 msgstr "Korpa"
 
 msgid "Basket details"
-msgstr ""
+msgstr "Детаљи коша"
 
 msgid "Basket name"
-msgstr ""
+msgstr "Назив коша"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "Кош је успешно сачуван"
 
 msgid "Billing address"
 msgstr "Adresa za račun"
@@ -190,16 +214,16 @@ msgid "Billing address part \"%1$s\" is missing"
 msgstr "Deo \"%1$s\" adrese racuna nedostaje"
 
 msgid "Birthday"
-msgstr ""
+msgstr "Рођендан"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "Навигација са хлебним мрвицама"
 
 msgid "Bulk order"
-msgstr ""
+msgstr "Велика поруџбина"
 
 msgid "Bundled products"
-msgstr ""
+msgstr "Паковани производи"
 
 msgid "Buy now"
 msgstr "Kupi sada"
@@ -208,31 +232,31 @@ msgid "Cancel"
 msgstr "Otkaži"
 
 msgid "Categories"
-msgstr ""
+msgstr "Категорије"
 
 msgid "Change"
 msgstr "Promeni"
 
 msgid "Change address"
-msgstr ""
+msgstr "Промени адресу"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "Промени адресу за наплату"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "Промени купоне"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "Промени доставу"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "Промени адресу испоруке"
 
 msgid "Change payment"
 msgstr "Promeniti nacin placanja"
 
 msgid "Change products"
-msgstr ""
+msgstr "Промени производе"
 
 msgid "Characteristics"
 msgstr "Karakteristike"
@@ -266,22 +290,22 @@ msgid "Coupons"
 msgstr "Kuponi"
 
 msgid "Create a customer account for me"
-msgstr ""
+msgstr "Креирајте ми кориснички налог"
 
 msgid "Created"
 msgstr "Kreirano"
 
 msgid "Customer account"
-msgstr ""
+msgstr "Налог купца"
 
 msgid "Decrease"
-msgstr ""
+msgstr "Смањење"
 
 msgid "Delete"
 msgstr "Obriši"
 
 msgid "Delete item"
-msgstr ""
+msgstr "Избриши ставку"
 
 msgid "Delivery"
 msgstr "Isporuka"
@@ -291,7 +315,7 @@ msgstr "Adresa Isporuke"
 
 #, php-format
 msgid "Delivery address deleted successfully"
-msgstr ""
+msgstr "Адреса испоруке успешно избрисана"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is invalid"
@@ -302,7 +326,7 @@ msgid "Delivery address part \"%1$s\" is missing"
 msgstr "Deo \"%1$s\" adrese za isporuku nedostaje"
 
 msgid "Delivery within"
-msgstr ""
+msgstr "Испорука у року од"
 
 msgid "Description"
 msgstr "Opis"
@@ -311,7 +335,7 @@ msgid "Details"
 msgstr "Detalji"
 
 msgid "Don't store address"
-msgstr ""
+msgstr "Не сачувај адресу"
 
 msgid "Downloads"
 msgstr "Preuzimanje"
@@ -332,50 +356,39 @@ msgid "Fields with an * are mandatory"
 msgstr "Polja sa * su obavezna"
 
 msgid "Filter"
-msgstr ""
+msgstr "Филтер"
 
 msgid "First"
-msgstr ""
+msgstr "Прво"
 
 msgid "First name"
 msgstr "Ime"
 
 msgid "Found products"
-msgstr ""
+msgstr "Пронађени производи"
 
 msgid "GB999999973"
-msgstr ""
+msgstr "GB999999973"
 
 msgid "Go to page"
-msgstr ""
+msgstr "Иди на страницу"
 
 msgid "Grid view"
-msgstr ""
+msgstr "Приказ у мрежи"
 
 msgid "HH:mm"
-msgstr ""
+msgstr "Ч:МН"
 
 msgid "Highest price"
-msgstr ""
+msgstr "Највиша цена"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "Прихватам <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">услове и одредбе</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">политику приватности</a> и <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">политику отказивања.</a>"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
+msgstr "Прихватам <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">услове и одредбе</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">политику приватности</a> и <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">политику отказивања.</a>"
 
 msgid "If back in stock"
 msgstr "Ako se pojavi na stanju"
@@ -385,7 +398,7 @@ msgstr "Ako pojeftini"
 
 #, php-format
 msgid "Incl. %1$s%% %2$s"
-msgstr ""
+msgstr "Укљ. %1$s%% %2$s"
 
 #, php-format
 msgid "Incl. %1$s%% VAT"
@@ -395,10 +408,10 @@ msgid "Included rebates"
 msgstr "Ukljuceni rabati"
 
 msgid "Increase"
-msgstr ""
+msgstr "Повећање"
 
 msgid "Interval"
-msgstr ""
+msgstr "Интервал"
 
 #, php-format
 msgid "Invalid characters in client name \"%1$s\""
@@ -413,13 +426,13 @@ msgid "Invalid domain \"%1$s\""
 msgstr "Pogrešan domen \"%1$s\""
 
 msgid "Invoice"
-msgstr ""
+msgstr "Фактура"
 
 msgid "Language"
 msgstr "Jezik"
 
 msgid "Last"
-msgstr ""
+msgstr "Последњи"
 
 msgid "Last name"
 msgstr "Prezime"
@@ -428,52 +441,50 @@ msgid "Last seen"
 msgstr "Poslednje gledano"
 
 msgid "Latest"
-msgstr ""
+msgstr "Најновије"
 
 msgid "Less"
-msgstr ""
+msgstr "Мање"
 
 msgid "List view"
-msgstr ""
+msgstr "Приказ листе"
 
 msgid "Lowest price"
-msgstr ""
+msgstr "Најнижа цена"
 
 msgid "Mobile"
-msgstr ""
+msgstr "Мобилни"
 
 msgid "Mobile number"
-msgstr ""
+msgstr "Мобилни број"
 
 msgid "More"
-msgstr ""
+msgstr "Више"
 
 msgid "More reviews"
-msgstr ""
+msgstr "Више рецензија"
 
 msgid "Name"
 msgstr "Ime"
 
 msgid "New"
-msgstr ""
+msgstr "Ново"
 
 msgid "New delivery address"
-msgstr ""
+msgstr "Нова адреса за доставу"
 
 msgid "Next"
 msgstr "Sledece"
 
 msgid "Next order"
-msgstr ""
+msgstr "Следећи налог"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
-msgstr ""
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
+msgstr "Није пронађен ниједан чланак за <span class=\"searchstring\">\"%1$s\"</span>. Молимо покушајте поново са другим кључном речју."
 
 msgid "No order ID available in session"
-msgstr ""
+msgstr "Није доступан ИД наруџбине у сесији"
 
 #, php-format
 msgid "No view available"
@@ -486,7 +497,7 @@ msgid "One week"
 msgstr "Jedna nedelja"
 
 msgid "Open submenu"
-msgstr ""
+msgstr "Отвори подменију"
 
 msgid "Order ID"
 msgstr "ID porudzbine"
@@ -498,7 +509,7 @@ msgid "Order history"
 msgstr "Historija porudzbine"
 
 msgid "Order status"
-msgstr ""
+msgstr "Статус наруџбине"
 
 msgid "Other customers also bought"
 msgstr "Druge musterije su kupile i"
@@ -508,18 +519,18 @@ msgid "Page %1$d of %2$d"
 msgstr "Stranica %1$d od %2$d"
 
 msgid "Pay now"
-msgstr ""
+msgstr "Плати сада"
 
 msgid "Payment"
 msgstr "Placanje"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Део адресе плаћања \"%1$s\" је неважећи"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Део адресе плаћања \"%1$s\" недостаје"
 
 msgid "Payment costs"
 msgstr "Cena placanja"
@@ -528,10 +539,10 @@ msgid "Payment status"
 msgstr "Status placanja"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Проценат"
 
 msgid "Pin product"
-msgstr ""
+msgstr "Причврсти производ"
 
 msgid "Pinned products"
 msgstr "Zakačeni proizvodi"
@@ -552,7 +563,7 @@ msgid "Please enter at least three characters"
 msgstr "Molimo unesite barem tri znaka"
 
 msgid "Please enter your payment details"
-msgstr ""
+msgstr "Молимо унесите податке о уплати"
 
 msgid "Please select"
 msgstr "Molimo odaberite"
@@ -567,92 +578,92 @@ msgid "Price"
 msgstr "Cena"
 
 msgid "Price filter"
-msgstr ""
+msgstr "Филтер цене"
 
 msgid "Price range"
-msgstr ""
+msgstr "Ценовни распон"
 
 msgid "Proceed"
 msgstr "Nastavi"
 
 msgid "Processing the payment failed"
-msgstr ""
+msgstr "Обрада плаћања није успела"
 
 msgid "Product"
 msgstr "Proizvod"
 
 msgid "Product actions"
-msgstr ""
+msgstr "Акције производа"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "Атрибути производа"
 
 msgid "Product categories"
-msgstr ""
+msgstr "Категорије производа"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "Карактеристике производа"
 
 msgid "Product description"
-msgstr ""
+msgstr "Опис производа"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "Преузимања производа"
 
 msgid "Product filters"
-msgstr ""
+msgstr "Филтри производа"
 
 msgid "Product image"
-msgstr ""
+msgstr "Слика производа"
 
 msgid "Product information"
-msgstr ""
+msgstr "Информације о производу"
 
 msgid "Product price"
 msgstr "Cena proizvoda"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "Рецензије производа"
 
 msgid "Product search"
-msgstr ""
+msgstr "Претрага производа"
 
 msgid "Products you might be also interested in"
 msgstr "Proizvodi koji bi Vas mogli zanimati"
 
 msgid "Qty"
-msgstr ""
+msgstr "Количина"
 
 msgid "Quantity"
 msgstr "kolicina"
 
 msgid "Rating"
-msgstr ""
+msgstr "Оцена"
 
 msgid "Reference"
-msgstr ""
+msgstr "Референца"
 
 msgid "Relevance"
 msgstr "Važnost"
 
 msgid "Remove"
-msgstr ""
+msgstr "Уклони"
 
 msgid "Reset"
-msgstr ""
+msgstr "Ресетовати"
 
 #, php-format
 msgid "Result for \"%1$s\""
 msgstr "Reazultati za \"%1$s\""
 
 msgid "Reviews"
-msgstr ""
+msgstr "Рецензије"
 
 msgid "SKU or article name"
-msgstr ""
+msgstr "SKU или назив артикла"
 
 msgid "Sale"
-msgstr ""
+msgstr "Распродаја"
 
 msgid "Salutation"
 msgstr "Pozdrav"
@@ -661,22 +672,20 @@ msgid "Save"
 msgstr "Sačuvaj"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "Кошारा је успешно уклоњена"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "Сачуване корпе"
 
 msgid "Search"
 msgstr "traži"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
+msgstr[0] "Резултат претраге за <span class=\"searchstring\">\"%1$s\"</span> (%2$d чланак)"
+msgstr[1] "Резултат претраге за <span class=\"searchstring\">\"%1$s\"</span> (%2$d чланка)"
+msgstr[2] "Резултат претраге за <span class=\"searchstring\">\"%1$s\"</span> (%2$d чланака)"
 
 msgid "Select country"
 msgstr "Odabrati zemlju"
@@ -688,13 +697,13 @@ msgid "Select language"
 msgstr "Odabrati jezik"
 
 msgid "Select salutation"
-msgstr ""
+msgstr "Изаберите поздрав"
 
 msgid "Select state"
 msgstr "Odabrati drzavu"
 
 msgid "Share"
-msgstr ""
+msgstr "Подели"
 
 msgid "Shipping"
 msgstr "Slanje"
@@ -703,13 +712,13 @@ msgid "Show"
 msgstr "Pokazati"
 
 msgid "Sort by"
-msgstr ""
+msgstr "Сортирај по"
 
 msgid "Sort by:"
 msgstr "Sortiraj po:"
 
 msgid "Stars"
-msgstr ""
+msgstr "Звезде"
 
 msgid "State"
 msgstr "Drzava"
@@ -723,25 +732,25 @@ msgstr "Stanje: %1$s, %2$s"
 
 #, php-format
 msgid "Stock: %1$s, %2$s, back on %3$s"
-msgstr ""
+msgstr "Сток: %1$s, %2$s, назад на %3$s"
 
 msgid "Street"
 msgstr "Ulica"
 
 msgid "Sub-total"
-msgstr ""
+msgstr "Међузбир"
 
 msgid "Submit"
-msgstr ""
+msgstr "Пошаљи"
 
 msgid "Subscription ID"
-msgstr ""
+msgstr "ИД претплате"
 
 msgid "Subscription details"
-msgstr ""
+msgstr "Подешавања претплате"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "Претплате"
 
 msgid "Suggested products"
 msgstr "Predlozeni proizvodi"
@@ -750,16 +759,16 @@ msgid "Sum"
 msgstr "Zbir"
 
 msgid "Supplier information"
-msgstr ""
+msgstr "Информације о добављачу"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "Листа добављача"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "Доставачи"
 
 msgid "Take a look"
-msgstr ""
+msgstr "Погледај"
 
 msgid "Telephone"
 msgstr "Telefon"
@@ -771,24 +780,30 @@ msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Хвала вам на поруџбини и овлашћивању плаћања.\n"
+"Е-порука са детаљима поруџбине биће вам послата у наредних неколико минута."
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Хвала вам на поруџбини.\n"
+"Примили смо вашу уплату и е-порука са детаљима поруџбине биће вам послата у наредних неколико минута."
 
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "Хвала вам на рецензији!"
 
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
 msgstr ""
+"Налог је отказан.\n"
+"Да ли желите да поново покушате са налогом?"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
-msgstr ""
+msgstr "Потврда уплате за вашу поруџбину је и даље у току. Добићете е-поруку чим уплата буде одобрена."
 
 msgid "Three month"
 msgstr "Tri meseca"
@@ -800,7 +815,7 @@ msgid "Title"
 msgstr "Naslov"
 
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Пребаци у пун екран"
 
 msgid "Total"
 msgstr "Ukupno"
@@ -813,28 +828,30 @@ msgstr "Dve nedelje"
 
 #, php-format
 msgid "Unable to create an account: %1$s"
-msgstr ""
+msgstr "Немогуће је креирати налог: %1$s"
 
 #, php-format
 msgid "Unable to save address for customer \"%1$s\": %2$s"
-msgstr ""
+msgstr "Немогуће је сачувати адресу за купца \"%1$s\": %2$s"
 
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
 msgstr ""
+"Нажалост, плаћање ваше поруџбине је одбијено.\n"
+"Да ли желите да поново покушате?"
 
 msgid "Update"
 msgstr "Azuriraj"
 
 msgid "Variant"
-msgstr ""
+msgstr "Верзија"
 
 msgid "Vat ID"
 msgstr "PDV ID"
 
 msgid "Vendor response"
-msgstr ""
+msgstr "Одговор добављача"
 
 msgid "Watch"
 msgstr "Gledaj"
@@ -846,7 +863,7 @@ msgid "Web site"
 msgstr "Web stranica"
 
 msgid "What do you think about the product"
-msgstr ""
+msgstr "Шта мислите о производу?"
 
 msgid "Y-m-d"
 msgstr "j.n.Y"
@@ -862,38 +879,38 @@ msgstr "Vi ste ovde"
 
 #, php-format
 msgid "You can only save up to %1$s products as favorites"
-msgstr ""
+msgstr "Можете да сачувате само до %1$s производа као омиљене."
 
 #, php-format
 msgid "You can only watch up to %1$s products"
-msgstr ""
+msgstr "Можете да прегледате само %1$s производа."
 
 msgid "You must log in first"
-msgstr ""
+msgstr "Прво морате да се пријавите."
 
 msgid "You will now be forwarded to the next step"
 msgstr "Necete biti prosledeni na sledeci korak"
 
 msgid "Your choice"
-msgstr ""
+msgstr "Ваш избор"
 
 msgid "Your comment"
-msgstr ""
+msgstr "Ваш коментар"
 
 msgid "Your rating"
-msgstr ""
+msgstr "Ваша оцена"
 
 msgid "Your reference"
-msgstr ""
+msgstr "Ваша референца"
 
 msgid "Your reference number"
-msgstr ""
+msgstr "Ваш референтни број"
 
 msgid "Your review"
-msgstr ""
+msgstr "Ваша рецензија"
 
 msgid "Zoom in/out"
-msgstr ""
+msgstr "Зумирање унапред/уназад"
 
 #, php-format
 msgid "address"
@@ -917,10 +934,10 @@ msgid "new address"
 msgstr "nova adresa"
 
 msgid "none"
-msgstr ""
+msgstr "никада"
 
 msgid "on request"
-msgstr ""
+msgstr "на захтев"
 
 #, php-format
 msgid "payment"
@@ -930,11 +947,11 @@ msgid "pin"
 msgstr "pin"
 
 msgid "price:default"
-msgstr ""
+msgstr "цена:подразумјевана"
 
 #, php-format
 msgid "process"
-msgstr ""
+msgstr "процес"
 
 msgid "stock-high"
 msgstr "zalihe-puno"

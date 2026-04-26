@@ -1,103 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# 
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Aimeos, 2025
-# Aimeos, 2025
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"Language-Team: Arabic (http://app.transifex.com/aimeos/aimeos-core/language/ar/)\n"
+"Last-Translator: Aimeos, 2025\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"Last-Translator: Aimeos, 2025\n"
-"Language-Team: Arabic (http://app.transifex.com/aimeos/aimeos-core/language/ar/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-
-#. Tax name
-msgid "tax"
-msgstr "الضريبة"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "الضرائب"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "تاكسجست"
-
-#. Price type default
-msgid "price:default"
-msgstr "%1$s %2$s"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
-
-#. Favorite action
-msgid "favorite"
-msgstr "المفضلة"
-
-#. Pin action
-msgid "pin"
-msgstr "دبوس"
-
-#. Watch action
-msgid "watch"
-msgstr "شاهد"
-
-#. Product attribute
-msgid "size"
-msgstr "الحجم"
-
-#. Product attribute
-msgid "length"
-msgstr "الطول"
-
-#. Product attribute
-msgid "width"
-msgstr "العرض"
 
 #. Product attribute
 msgid "color"
 msgstr "اللون"
 
-#. Product attribute
-msgid "option"
-msgstr "الخيار"
+#. Pick-up date
+msgid "date.value"
+msgstr "التاريخ.القيمة"
 
-#. Product property package-length
-msgid "package-length"
-msgstr "طول الحزمة"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "عرض الحزمة"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "ارتفاع الحزمة"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "وزن العبوة"
-
-#. Direct debit service provider
-msgid "directdebit.accountowner"
-msgstr "المدين المباشر مالك الحساب"
+#. Delivery type
+msgid "delivery.type"
+msgstr "نوع التسليم"
 
 #. Direct debit service provider
 msgid "directdebit.accountno"
 msgstr "رقم الحساب"
+
+#. Direct debit service provider
+msgid "directdebit.accountowner"
+msgstr "المدين المباشر مالك الحساب"
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -107,13 +40,33 @@ msgstr "الرمز البنكي المباشر للخصم المباشر"
 msgid "directdebit.bankname"
 msgstr "اسم البنك"
 
-#. Omnipay service provider
-msgid "payment.firstname"
-msgstr "الإسم الأول"
+#. Favorite action
+msgid "favorite"
+msgstr "المفضلة"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "اللقب"
+#. Product attribute
+msgid "length"
+msgstr "الطول"
+
+#. Product attribute
+msgid "option"
+msgstr "الخيار"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "ارتفاع الحزمة"
+
+#. Product property package-length
+msgid "package-length"
+msgstr "طول الحزمة"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "وزن العبوة"
+
+#. Product property package-width
+msgid "package-width"
+msgstr "عرض الحزمة"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -124,6 +77,10 @@ msgid "payment.cvv"
 msgstr "رقم التحقق"
 
 #. Omnipay service provider
+msgid "payment.expiry"
+msgstr "انتهاء الصلاحية (MMYYY)"
+
+#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "شهر انتهاء الصلاحية"
 
@@ -132,25 +89,57 @@ msgid "payment.expiryyear"
 msgstr "سنة انتهاء الصلاحية"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "انتهاء الصلاحية (MMYYY)"
+msgid "payment.firstname"
+msgstr "الإسم الأول"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "التاريخ.القيمة"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "اللقب"
 
-#. Pick-up time
-msgid "time.hourminute"
-msgstr "الوقت.الساعة.ساعة دقيقة"
+#. Pin action
+msgid "pin"
+msgstr "دبوس"
 
-#. Pick-up location
-msgid "supplier.code"
-msgstr "كود المورد"
+#. Price type default
+msgid "price:default"
+msgstr "%1$s %2$s"
+
+#. Product attribute
+msgid "size"
+msgstr "الحجم"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
 
 #. Pick-up location
 msgid "supplier.address"
 msgstr "عنوان المورد"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "نوع التسليم"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "كود المورد"
+
+#. Tax name
+msgid "tax"
+msgstr "الضريبة"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "تاكسجست"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "الضرائب"
+
+#. Pick-up time
+msgid "time.hourminute"
+msgstr "الوقت.الساعة.ساعة دقيقة"
+
+#. Watch action
+msgid "watch"
+msgstr "شاهد"
+
+#. Product attribute
+msgid "width"
+msgstr "العرض"

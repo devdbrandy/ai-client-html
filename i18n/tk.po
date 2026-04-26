@@ -1,23 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Ayshe Sammiyeva, 2023
-# Ayshe Sammiyeva, 2023
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: tk\n"
+"Language-Team: Turkmen (http://app.transifex.com/aimeos/aimeos-core/language/tk/)\n"
+"Last-Translator: Ayshe Sammiyeva, 2023\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: Ayshe Sammiyeva, 2023\n"
-"Language-Team: Turkmen (http://app.transifex.com/aimeos/aimeos-core/language/tk/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: tk\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, php-format
 msgid "%1$d article"
@@ -46,7 +39,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
-msgstr "%1$s\n%2$s%3$s%4$s%5$s\n%6$s%7$s\n%8$s\n%9$s%10$s\n%11$s\n%12$s\n%13$s\n%14$s\n%15$s\n%16$s\n%17$s\n%18$s\n"
+""
+msgstr ""
+"%1$s\n"
+"%2$s%3$s%4$s%5$s\n"
+"%6$s%7$s\n"
+"%8$s\n"
+"%9$s%10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -64,7 +72,23 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
@@ -76,7 +100,7 @@ msgstr "%1$s %2$s arzanladyş"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
@@ -87,11 +111,11 @@ msgid "%1$s%3$s + %2$s%3$s"
 msgstr "%1$s%3$s + %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(täze penjerede açylýar)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
@@ -118,7 +142,7 @@ msgid "Add billing address"
 msgstr "Hasaplaşyk salgysyny goşmak"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "Eltip beriş salgysyny goşuň"
 
 msgid "Add to basket"
 msgstr "Sebede goş"
@@ -131,11 +155,11 @@ msgstr "Goşmaça 2"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Adres bölegi \"%1$s\" ýatylmaýar"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Adres bölegi \"%1$s\" ýok."
 
 msgid "Apply"
 msgstr "Giriş"
@@ -156,10 +180,10 @@ msgstr "Iň bolmanda bir gowşuryş salgysynyň bölegi ýok ýa-da nädogry"
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "Iň azyndan bir töleg salgysy bölegi ýok ýa-da nädogry."
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "Iň azyndan bir önüm sepetiň içine goşulmady."
 
 msgid "Back"
 msgstr "Yza"
@@ -168,13 +192,13 @@ msgid "Basket"
 msgstr "Sebet"
 
 msgid "Basket details"
-msgstr ""
+msgstr "Sepet jikme-jiklikleri"
 
 msgid "Basket name"
-msgstr ""
+msgstr "Sepet ady"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "Sepet üstünlikli saklandy"
 
 msgid "Billing address"
 msgstr "Hasaplaşyk salgysy"
@@ -191,7 +215,7 @@ msgid "Birthday"
 msgstr "Doglan gün"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "Breadcrumb navigasiýasy"
 
 msgid "Bulk order"
 msgstr "Köpçülikleýin sargyt"
@@ -212,25 +236,25 @@ msgid "Change"
 msgstr "Üýtgediň"
 
 msgid "Change address"
-msgstr ""
+msgstr "Salgyny üýtget"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "Hasap salgysyny üýtget"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "Kuponlary üýtget"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "Eltip beriliş usulyny üýtget"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "Eltip beriş salgysyny üýtget"
 
 msgid "Change payment"
 msgstr "Tölegini üýtgediň"
 
 msgid "Change products"
-msgstr ""
+msgstr "Önümleri üýtget"
 
 msgid "Characteristics"
 msgstr "Häsiýetleri"
@@ -273,7 +297,7 @@ msgid "Customer account"
 msgstr "Müşderi hasaby"
 
 msgid "Decrease"
-msgstr ""
+msgstr "Azaltmak"
 
 msgid "Delete"
 msgstr "Pozuň"
@@ -333,19 +357,19 @@ msgid "Filter"
 msgstr "Filtr"
 
 msgid "First"
-msgstr ""
+msgstr "Ilki"
 
 msgid "First name"
 msgstr "Ady"
 
 msgid "Found products"
-msgstr ""
+msgstr "Tapylan önümler"
 
 msgid "GB999999973"
 msgstr "GB999999973"
 
 msgid "Go to page"
-msgstr ""
+msgstr "Sahypaya geçiň"
 
 msgid "Grid view"
 msgstr "Grid görnüşi"
@@ -357,22 +381,11 @@ msgid "Highest price"
 msgstr "Iň ýokary baha"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "Men <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">şertler we düzgünleri</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">gizlinlik syýasatyny</a> we <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">ýatyryş syýasatyny</a> kabul edýärin."
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
 msgstr "<a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">Şertleri</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">gizlinlik ýörelgelerini</a> we <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">ýatyryş syýasatyny</a> kabul edýärin"
 
 msgid "If back in stock"
@@ -393,7 +406,7 @@ msgid "Included rebates"
 msgstr "Arzanladyşy goşulan"
 
 msgid "Increase"
-msgstr ""
+msgstr "Artdyrmak"
 
 msgid "Interval"
 msgstr "Aralyk"
@@ -411,13 +424,13 @@ msgid "Invalid domain \"%1$s\""
 msgstr "Nädogry domen \"%1$s\""
 
 msgid "Invoice"
-msgstr ""
+msgstr "Hasap-faktura"
 
 msgid "Language"
 msgstr "Dil"
 
 msgid "Last"
-msgstr ""
+msgstr "Soňky"
 
 msgid "Last name"
 msgstr "Familýasy"
@@ -429,7 +442,7 @@ msgid "Latest"
 msgstr "Iň soňky"
 
 msgid "Less"
-msgstr ""
+msgstr "Az"
 
 msgid "List view"
 msgstr "Sanaw görnüşi"
@@ -438,13 +451,13 @@ msgid "Lowest price"
 msgstr "Iň arzan baha"
 
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 msgid "Mobile number"
-msgstr ""
+msgstr "Mobil telefon belgisi"
 
 msgid "More"
-msgstr ""
+msgstr "Has köp"
 
 msgid "More reviews"
 msgstr "Has köp syn"
@@ -465,9 +478,7 @@ msgid "Next order"
 msgstr "Indiki sargyt"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
 msgstr "<span class=\"searchstring\">\"%1$s\"</span> üçin haryt tapylmady Başga bir açar söz bilen gaýtadan synanyşmagyňyzy haýyş edýäris."
 
 msgid "No order ID available in session"
@@ -513,11 +524,11 @@ msgstr "Töleg"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Töleg salgysynyň \"%1$s\" bölegi nädogry"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Töleg salgysynyň \"%1$s\" bölegi ýok."
 
 msgid "Payment costs"
 msgstr "Töleg çykdajylary"
@@ -526,7 +537,7 @@ msgid "Payment status"
 msgstr "Töleg ýagdaýy"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Gysgaça ýazylşy"
 
 msgid "Pin product"
 msgstr "Harydy belläň"
@@ -565,7 +576,7 @@ msgid "Price"
 msgstr "Bahasy"
 
 msgid "Price filter"
-msgstr ""
+msgstr "Bahanyň süzgüji"
 
 msgid "Price range"
 msgstr "Bahalar aralygy"
@@ -580,40 +591,40 @@ msgid "Product"
 msgstr "Haryt"
 
 msgid "Product actions"
-msgstr ""
+msgstr "Önümiň hereketleri"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "Önümiň häsiýetleri"
 
 msgid "Product categories"
-msgstr ""
+msgstr "Önüm kategoriýalary"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "Önümiň häsiýetleri"
 
 msgid "Product description"
-msgstr ""
+msgstr "Önümiň beýany"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "Önüm ýüklämeleri"
 
 msgid "Product filters"
-msgstr ""
+msgstr "Önüm süzgüçleri"
 
 msgid "Product image"
 msgstr "Harydyň surady"
 
 msgid "Product information"
-msgstr ""
+msgstr "Önümiň maglumaty"
 
 msgid "Product price"
-msgstr ""
+msgstr "Önümiň bahasy"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "Önüm synlary"
 
 msgid "Product search"
-msgstr ""
+msgstr "Önüm gözlegi"
 
 msgid "Products you might be also interested in"
 msgstr "Sizi hem gyzyklandyryp biljek önümler"
@@ -634,7 +645,7 @@ msgid "Relevance"
 msgstr "Baglanyşygy"
 
 msgid "Remove"
-msgstr ""
+msgstr "Aýyrmak"
 
 msgid "Reset"
 msgstr "Täzeden düzmek"
@@ -659,19 +670,17 @@ msgid "Save"
 msgstr "Ýatda sakla"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "Saklanan sebet üstünlikli aýryldy"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "Saklanan sepetler"
 
 msgid "Search"
 msgstr "Gözlemek"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
 msgstr[0] "<span class=\"searchstring\">\"%1$s\"</span> üçin gözleg netijesi (%2$d harytlar)"
 msgstr[1] "<span class=\"searchstring\">\"%1$s\"</span> üçin gözlegiň netijesi (%2$d harytlar)"
 
@@ -700,13 +709,13 @@ msgid "Show"
 msgstr "Görkez"
 
 msgid "Sort by"
-msgstr ""
+msgstr "Sortla"
 
 msgid "Sort by:"
 msgstr "Tertipleşdiriň:"
 
 msgid "Stars"
-msgstr ""
+msgstr "Ýyldyzlar"
 
 msgid "State"
 msgstr "Şäher"
@@ -750,7 +759,7 @@ msgid "Supplier information"
 msgstr "Üpjün ediji barada maglumat"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "Täminleýjiler sanawy"
 
 msgid "Suppliers"
 msgstr "Üpjün edijiler"
@@ -767,12 +776,16 @@ msgstr "Şertler"
 msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
-msgstr "Sargydyňyz we tölegiňize rugsat bereniňiz üçin sag boluň.\nSargyt jikme-jiklikleri bolan e-poçta ýakyn birnäçe minutyň içinde size iberiler."
+msgstr ""
+"Sargydyňyz we tölegiňize rugsat bereniňiz üçin sag boluň.\n"
+"Sargyt jikme-jiklikleri bolan e-poçta ýakyn birnäçe minutyň içinde size iberiler."
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
-msgstr "Sargyt üçin sag boluň.\nTölegiňizi aldyk we sargyt jikme-jiklikleri bilen e-poçta ýakyn birnäçe minutda size iberiler."
+msgstr ""
+"Sargyt üçin sag boluň.\n"
+"Tölegiňizi aldyk we sargyt jikme-jiklikleri bilen e-poçta ýakyn birnäçe minutda size iberiler."
 
 msgid "Thank you for your review!"
 msgstr "Syn edeniňiz üçin sag boluň!"
@@ -780,12 +793,16 @@ msgstr "Syn edeniňiz üçin sag boluň!"
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
-msgstr "Sargyt ýatyryldy.\nSargydyňyzy täzeden synap görmek isleýärsiňizmi?"
+msgstr ""
+"Sargyt ýatyryldy.\n"
+"Sargydyňyzy täzeden synap görmek isleýärsiňizmi?"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
-msgstr "Sargydyňyz üçin töleg tassyklamasy henizem garaşylýar.\nTöleg ygtyýar berlen badyna e-poçta alarsyňyz."
+msgstr ""
+"Sargydyňyz üçin töleg tassyklamasy henizem garaşylýar.\n"
+"Töleg ygtyýar berlen badyna e-poçta alarsyňyz."
 
 msgid "Three month"
 msgstr "Üç aý"
@@ -794,7 +811,7 @@ msgid "Time frame"
 msgstr "Wagt çäkleri"
 
 msgid "Title"
-msgstr ""
+msgstr "At"
 
 msgid "Toggle fullscreen"
 msgstr "Doly ekrany açmak"
@@ -819,7 +836,9 @@ msgstr "Müşderi \"%1$s\" üçin salgy ýazdyryp bolmaýar: %2$s"
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
-msgstr "Gynansagam, sargydyňyz üçin töleg ret edildi.\nGaýtadan synanyşmak isleýärsiňizmi?"
+msgstr ""
+"Gynansagam, sargydyňyz üçin töleg ret edildi.\n"
+"Gaýtadan synanyşmak isleýärsiňizmi?"
 
 msgid "Update"
 msgstr "Täzelemek"
@@ -866,7 +885,7 @@ msgid "You can only watch up to %1$s products"
 msgstr "Diňe %1$s harydy gözegçilik edilýän haryt görnüşinde saklap bilersiňiz"
 
 msgid "You must log in first"
-msgstr ""
+msgstr "Ilki girmeli"
 
 msgid "You will now be forwarded to the next step"
 msgstr "Indi indiki ädime ugradylarsyňyz"

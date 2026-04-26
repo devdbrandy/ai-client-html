@@ -1,32 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Shoon Lae Won <wonshoonlae@gmail.com>, 2018
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: my\n"
+"Language-Team: Burmese (http://app.transifex.com/aimeos/aimeos-core/language/my/)\n"
+"Last-Translator: Shoon Lae Won <wonshoonlae@gmail.com>, 2018\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: Shoon Lae Won <wonshoonlae@gmail.com>, 2018\n"
-"Language-Team: Burmese (http://app.transifex.com/aimeos/aimeos-core/language/my/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: my\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #, php-format
 msgid "%1$d article"
 msgid_plural "%1$d articles"
-msgstr[0] ""
+msgstr[0] "%1$d ဆောင်းပါး"
 
 #, php-format
 msgid "%1$d review"
 msgid_plural "%1$d reviews"
-msgstr[0] ""
+msgstr[0] "%1$d ပြန်လည်သုံးသပ်ချက်"
 
 #, php-format
 msgid ""
@@ -43,7 +37,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -61,91 +70,107 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
-msgstr ""
+msgstr "%1$s %2$s"
 
 #, php-format
 msgid "%1$s %2$s off"
-msgstr ""
+msgstr "%1$s %2$s လျှော့"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s သည် %2$s တွင်"
 
 #, php-format
 msgid "%1$s%3$s + %2$s%3$s"
-msgstr ""
+msgstr "%1$s%3$s နှင့် %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(အသစ်ဖွင့်မည့် ပြတင်းပေါက်တွင် ဖွင့်မည်)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
-msgstr ""
+msgstr "+ %1$s%% %2$s"
 
 #, php-format
 msgid "+ %1$s%% VAT"
-msgstr ""
+msgstr "+ %1$s%% အခွန်"
 
 msgid "+1 123 456 7890"
-msgstr ""
+msgstr "+၁ ၁၂၃ ၄၅၆ ၇၈၉၀"
 
 #, php-format
 msgid "-%1$s%%"
-msgstr ""
+msgstr "တစ်ခုခုပါပဲ"
 
 msgid "A non-recoverable error occured"
-msgstr ""
+msgstr "ပြန်လည်မရနိုင်သော အမှားတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။"
 
 msgid "Add"
 msgstr "ထည့်မည်"
 
 msgid "Add billing address"
-msgstr ""
+msgstr "ငွေချေမှုလိပ်စာ ထည့်ပါ"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာထည့်ပါ"
 
 msgid "Add to basket"
-msgstr ""
+msgstr "လှည်းထဲထည့်ပါ"
 
 msgid "Additional"
-msgstr ""
+msgstr "ထပ်ဆောင်း"
 
 msgid "Additional 2"
-msgstr ""
+msgstr "ထပ်ဆောင်း ၂"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "လိပ်စာအစိတ်အပိုင်း \"%1$s\" မမှန်ကန်ပါ။"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "လိပ်စာအစိတ်အပိုင်း \"%1$s\" မတွေ့ပါ။"
 
 msgid "Apply"
-msgstr ""
+msgstr "လျှောက်ထားပါ"
 
 msgid "Article"
-msgstr ""
+msgstr "ဆောင်းပါး"
 
 msgid "Article no."
-msgstr ""
+msgstr "ဆောင်းပါးနံပါတ်"
 
 #, php-format
 msgid "At least one billing address part is missing or invalid"
-msgstr ""
+msgstr "အနည်းဆုံး ဘီလ်လိပ်စာ အစိတ်အပိုင်း တစ်ခု မပါဝင်ခြင်း သို့မဟုတ် မမှန်ကန်ခြင်း ဖြစ်နေသည်။"
 
 #, php-format
 msgid "At least one delivery address part is missing or invalid"
@@ -153,54 +178,54 @@ msgstr "ပေးပို့ရမည့်လိပ်စာရှာမတွ
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "အနည်းဆုံး ငွေပေးချေမှုလိပ်စာ အစိတ်အပိုင်း တစ်ခု မပါခြင်း သို့မဟုတ် မမှန်ကန်ခြင်း ဖြစ်နေသည်။"
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "အနည်းဆုံး ထုတ်ကုန်တစ်ခုကို အိတ်ထဲထည့်၍ မရနိုင်ခဲ့သည်။"
 
 msgid "Back"
-msgstr ""
+msgstr "ပြန်"
 
 msgid "Basket"
 msgstr "Basket"
 
 msgid "Basket details"
-msgstr ""
+msgstr "လှည်းအသေးစိတ်"
 
 msgid "Basket name"
-msgstr ""
+msgstr "ဘတ်စကက်အမည်"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "အိတ်ထဲသို့ အောင်မြင်စွာ ထည့်ထားပါပြီ။"
 
 msgid "Billing address"
-msgstr ""
+msgstr "ငွေတောင်းခံလိပ်စာ"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "ငွေတောင်းခံလိပ်စာ အပိုင်း \"%1$s\" မမှန်ကန်ပါ။"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is missing"
-msgstr ""
+msgstr "ငွေတောင်းခံလိပ်စာ အပိုင်း \"%1$s\" မတွေ့ပါ။"
 
 msgid "Birthday"
 msgstr "မွေးနေ့"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "အဆင့်လိုက် နောက်ပြန်လင့်ခ်"
 
 msgid "Bulk order"
-msgstr ""
+msgstr "အစုလိုက်မှာယူခြင်း"
 
 msgid "Bundled products"
-msgstr ""
+msgstr "အထုပ်ထည့်ထားသော ကုန်ပစ္စည်းများ"
 
 msgid "Buy now"
 msgstr "ဝယ်ယူမည်"
 
 msgid "Cancel"
-msgstr ""
+msgstr "ဖျက်ရန်"
 
 msgid "Categories"
 msgstr "အမျိုးအစားများ"
@@ -209,38 +234,38 @@ msgid "Change"
 msgstr "ပြောင်းလဲမည်"
 
 msgid "Change address"
-msgstr ""
+msgstr "လိပ်စာပြောင်းပါ"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "ငွေချေမှုလိပ်စာပြောင်းပါ"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "ကူပွန်များပြောင်းလဲခြင်း"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "ပို့ဆောင်မှုပြောင်းရန်"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာပြောင်းပါ"
 
 msgid "Change payment"
 msgstr "ငွေချေစနစ်ပြောင်းလဲမည်"
 
 msgid "Change products"
-msgstr ""
+msgstr "ထုတ်ကုန်များ ပြောင်းလဲပါ။"
 
 msgid "Characteristics"
-msgstr ""
+msgstr "အင်္ဂါရပ်များ"
 
 msgid "Checkout"
-msgstr ""
+msgstr "ငွေပေးချေခြင်း"
 
 msgid "City"
 msgstr "မြို့နယ်"
 
 #, php-format
 msgid "Class \"%1$s\" not found"
-msgstr ""
+msgstr "Class \"%1$s\" မတွေ့ပါ"
 
 msgid "Close"
 msgstr "ပိတ်မည်"
@@ -264,582 +289,577 @@ msgid "Create a customer account for me"
 msgstr "ဝယ်ယူသူအကောင့်ပြုလုပ်မည်"
 
 msgid "Created"
-msgstr ""
+msgstr "ဖန်တီးခဲ့သည်"
 
 msgid "Customer account"
 msgstr "ဝယ်ယူသူအကောင့်"
 
 msgid "Decrease"
-msgstr ""
+msgstr "လျော့နည်းခြင်း"
 
 msgid "Delete"
-msgstr ""
+msgstr "ဖျက်ပါ"
 
 msgid "Delete item"
-msgstr ""
+msgstr "အရာကို ဖျက်ပါ"
 
 msgid "Delivery"
-msgstr ""
+msgstr "ပို့ဆောင်ခြင်း"
 
 msgid "Delivery address"
 msgstr "ပေးပို့ရမည့်လိပ်စာ"
 
 #, php-format
 msgid "Delivery address deleted successfully"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာကို အောင်မြင်စွာ ဖျက်လိုက်ပါပြီ။"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာအပိုင်း \"%1$s\" မမှန်ကန်ပါ"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is missing"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာအပိုင်း \"%1$s\" မတွေ့ပါ။"
 
 msgid "Delivery within"
-msgstr ""
+msgstr "အတွင်းပို့ဆောင်ခြင်း"
 
 msgid "Description"
-msgstr ""
+msgstr "ဖော်ပြချက်"
 
 msgid "Details"
 msgstr "အသေးစိတ်"
 
 msgid "Don't store address"
-msgstr ""
+msgstr "လိပ်စာ မသိမ်းပါ"
 
 msgid "Downloads"
-msgstr ""
+msgstr "ဒေါင်းလုဒ်များ"
 
 msgid "E-Mail"
-msgstr ""
+msgstr "အီးမေးလ်"
 
 msgid "End date"
-msgstr ""
+msgstr "အဆုံးသတ်ရက်"
 
 msgid "Favorite products"
-msgstr ""
+msgstr "အကြိုက်ဆုံး ထုတ်ကုန်များ"
 
 msgid "Fax"
-msgstr ""
+msgstr "ဖက်စ်"
 
 msgid "Fields with an * are mandatory"
-msgstr ""
+msgstr "* အမှတ်အသားပါသော ကွက်များမှာ မဖြစ်မနေဖြည့်ရမည့် ကွက်များဖြစ်သည်။"
 
 msgid "Filter"
-msgstr ""
+msgstr "စစ်ထုတ်"
 
 msgid "First"
-msgstr ""
+msgstr "ပထမ"
 
 msgid "First name"
-msgstr ""
+msgstr "အမည်ပထမ"
 
 msgid "Found products"
-msgstr ""
+msgstr "တွေ့ရှိထားသော ထုတ်ကုန်များ"
 
 msgid "GB999999973"
-msgstr ""
+msgstr "ဂျီဘီ၉၉၉၉၉၉၇၃"
 
 msgid "Go to page"
-msgstr ""
+msgstr "စာမျက်နှာသို့ သွားပါ"
 
 msgid "Grid view"
-msgstr ""
+msgstr "ကွက်ကြည့်ပုံစံ"
 
 msgid "HH:mm"
-msgstr ""
+msgstr "နာရီဃောဠာန်"
 
 msgid "Highest price"
-msgstr ""
+msgstr "အမြင့်ဆုံးစျေးနှုန်း"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "ကျွန်ုပ်သည် <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">စည်းမျဉ်းစည်းကမ်း</a>များ၊ <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">ကိုယ်ရေးအချက်အလက်ကာကွယ်ရေးမူဝါဒ</a>နှင့် <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">ဖျက်သိမ်းရေးမူဝါဒ</a>တို့ကို လက်ခံပါသည်။"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
+msgstr "ကျွန်ုပ်သည် <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">စည်းမျဉ်းစည်းကမ်း</a>များ၊ <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">ကိုယ်ရေးအချက်အလက်ကာကွယ်ရေးမူဝါဒ</a>နှင့် <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">ဖျက်သိမ်းရေးမူဝါဒ</a>တို့ကို လက်ခံပါသည်။"
 
 msgid "If back in stock"
-msgstr ""
+msgstr "ပြန်လက်ကျန်ရှိပါက"
 
 msgid "If price decreases"
-msgstr ""
+msgstr "စျေးနှုန်းကျဆင်းပါက"
 
 #, php-format
 msgid "Incl. %1$s%% %2$s"
-msgstr ""
+msgstr "ပါဝင်သည်။ %1$s%% %2$s"
 
 #, php-format
 msgid "Incl. %1$s%% VAT"
-msgstr ""
+msgstr "အပါအဝင် %1$s%% VAT"
 
 msgid "Included rebates"
-msgstr ""
+msgstr "ပါဝင်သော ပြန်အမ်းငွေများ"
 
 msgid "Increase"
-msgstr ""
+msgstr "တိုးမြှင့်ခြင်း"
 
 msgid "Interval"
-msgstr ""
+msgstr "အကြားကာလ"
 
 #, php-format
 msgid "Invalid characters in client name \"%1$s\""
-msgstr ""
+msgstr "Client အမည် \"%1$s\" တွင် မမှန်ကန်သော အက္ခရာများ ပါဝင်နေပါသည်။"
 
 #, php-format
 msgid "Invalid class name \"%1$s\""
-msgstr ""
+msgstr "အတန်းအမည် \"%1$s\" သည် မမှန်ကန်ပါ။"
 
 #, php-format
 msgid "Invalid domain \"%1$s\""
-msgstr ""
+msgstr "မမှန်ကန်သော ဒိုမိန်း \"%1$s\""
 
 msgid "Invoice"
-msgstr ""
+msgstr "ငွေတောင်းခံလွှာ"
 
 msgid "Language"
 msgstr "ဘာသာစကား"
 
 msgid "Last"
-msgstr ""
+msgstr "နောက်ဆုံး"
 
 msgid "Last name"
-msgstr ""
+msgstr "နောက်ဆုံးနာမည်"
 
 msgid "Last seen"
-msgstr ""
+msgstr "နောက်ဆုံးမြင်တွေ့ခဲ့သည်"
 
 msgid "Latest"
-msgstr ""
+msgstr "နောက်ဆုံး"
 
 msgid "Less"
-msgstr ""
+msgstr "နည်းနည်း"
 
 msgid "List view"
-msgstr ""
+msgstr "စာရင်းမြင်ကွင်း"
 
 msgid "Lowest price"
-msgstr ""
+msgstr "အနိမ့်ဆုံးစျေးနှုန်း"
 
 msgid "Mobile"
-msgstr ""
+msgstr "မိုဘိုင်း"
 
 msgid "Mobile number"
-msgstr ""
+msgstr "မိုဘိုင်းနံပါတ်"
 
 msgid "More"
-msgstr ""
+msgstr "ပိုမို"
 
 msgid "More reviews"
-msgstr ""
+msgstr "အခြားသုံးသပ်ချက်များ"
 
 msgid "Name"
 msgstr "အမည်"
 
 msgid "New"
-msgstr ""
+msgstr "အသစ်"
 
 msgid "New delivery address"
-msgstr ""
+msgstr "ပို့ဆောင်ရန်လိပ်စာအသစ်"
 
 msgid "Next"
-msgstr ""
+msgstr "နောက်တစ်ခု"
 
 msgid "Next order"
-msgstr ""
+msgstr "နောက်အမှာစာ"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
-msgstr ""
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
+msgstr "<span class=\"searchstring\">\"%1$s\"</span> အတွက် ဆောင်းပါး မတွေ့ပါ။  ကွဲပြားသော သော့ချက်စကားလုံးဖြင့် ထပ်မံကြိုးစားပါ။"
 
 msgid "No order ID available in session"
-msgstr ""
+msgstr "လက်ရှိအစည်းအဝေးတွင် အော်ဒါ ID မရရှိနိုင်ပါ။"
 
 #, php-format
 msgid "No view available"
-msgstr ""
+msgstr "ကြည့်ရှုရန် မရနိုင်ပါ"
 
 msgid "One month"
-msgstr ""
+msgstr "တစ်လ"
 
 msgid "One week"
-msgstr ""
+msgstr "တစ်ပတ်"
 
 msgid "Open submenu"
-msgstr ""
+msgstr "အောက်မီနူးဖွင့်ပါ"
 
 msgid "Order ID"
-msgstr ""
+msgstr "အော်ဒါ အိုင်ဒီ"
 
 msgid "Order details"
-msgstr ""
+msgstr "အော်ဒါအသေးစိတ်"
 
 msgid "Order history"
-msgstr ""
+msgstr "အော်ဒါမှတ်တမ်း"
 
 msgid "Order status"
-msgstr ""
+msgstr "အော်ဒါအခြေအနေ"
 
 msgid "Other customers also bought"
-msgstr ""
+msgstr "အခြားဖောက်သည်များလည်း ဝယ်ယူခဲ့ကြသည်။"
 
 #, php-format
 msgid "Page %1$d of %2$d"
-msgstr ""
+msgstr "စာမျက်နှာ %1$d၊ စုစုပေါင်း %2$d"
 
 msgid "Pay now"
 msgstr "ပေးချေမည်"
 
 msgid "Payment"
-msgstr ""
+msgstr "ငွေပေးချေမှု"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "ငွေပေးချေမှုလိပ်စာအပိုင်း \"%1$s\" မမှန်ကန်ပါ"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "ငွေပေးချေမှုလိပ်စာအပိုင်း \"%1$s\" မတွေ့ပါ။"
 
 msgid "Payment costs"
-msgstr ""
+msgstr "ငွေပေးချေမှုကုန်ကျစရိတ်များ"
 
 msgid "Payment status"
-msgstr ""
+msgstr "ငွေပေးချေမှုအခြေအနေ"
 
 msgid "Percentage"
-msgstr ""
+msgstr "ရာခိုင်နှုန်း"
 
 msgid "Pin product"
-msgstr ""
+msgstr "ထုတ်ကုန်ကို ပင်ဆင်ရန်"
 
 msgid "Pinned products"
-msgstr ""
+msgstr "တံဆိပ်တပ်ထားသော ထုတ်ကုန်များ"
 
 msgid "Please accept the terms and conditions"
-msgstr ""
+msgstr "စည်းမျဉ်းစည်းကမ်းများနှင့် အခြေအနေများကို လက်ခံပါ။"
 
 msgid "Please check your order"
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ သင့်အော်ဒါကို စစ်ဆေးပါ။"
 
 msgid "Please choose your delivery method"
-msgstr ""
+msgstr "ပို့ဆောင်မှုနည်းလမ်းကို ရွေးချယ်ပါ။"
 
 msgid "Please choose your payment method"
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ သင့်ငွေပေးချေမှုနည်းလမ်းကို ရွေးချယ်ပါ။"
 
 msgid "Please enter at least three characters"
-msgstr ""
+msgstr "အနည်းဆုံး သုံး အက္ခရာ ထည့်ပါ။"
 
 msgid "Please enter your payment details"
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ သင့်ငွေပေးချေမှုအသေးစိတ်ကို ထည့်ပါ။"
 
 msgid "Please select"
 msgstr "ကျေးဇူးပြု၍ရွေးချယ်ပါ"
 
 msgid "Postal code"
-msgstr ""
+msgstr "တိုက်ကုဒ်"
 
 msgid "Previous"
-msgstr ""
+msgstr "ယခင်"
 
 msgid "Price"
 msgstr "ဈေးနှုန်း"
 
 msgid "Price filter"
-msgstr ""
+msgstr "စျေးနှုန်း စစ်ထုတ်ခြင်း"
 
 msgid "Price range"
-msgstr ""
+msgstr "စျေးနှုန်းအကွာအဝေး"
 
 msgid "Proceed"
-msgstr ""
+msgstr "ဆက်လက်လုပ်ဆောင်ပါ"
 
 msgid "Processing the payment failed"
-msgstr ""
+msgstr "ငွေပေးချေမှု မအောင်မြင်ပါ။"
 
 msgid "Product"
 msgstr "Product"
 
 msgid "Product actions"
-msgstr ""
+msgstr "ထုတ်ကုန် လှုပ်ရှားမှုများ"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "ထုတ်ကုန်၏ အင်္ဂါရပ်များ"
 
 msgid "Product categories"
-msgstr ""
+msgstr "ထုတ်ကုန်အမျိုးအစားများ"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "ထုတ်ကုန်၏ လက္ခဏာများ"
 
 msgid "Product description"
-msgstr ""
+msgstr "ထုတ်ကုန်ဖော်ပြချက်"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "ထုတ်ကုန်ဒေါင်းလုဒ်များ"
 
 msgid "Product filters"
-msgstr ""
+msgstr "ထုတ်ကုန် စစ်ထုတ်စနစ်များ"
 
 msgid "Product image"
-msgstr ""
+msgstr "ထုတ်ကုန်ဓာတ်ပုံ"
 
 msgid "Product information"
-msgstr ""
+msgstr "ထုတ်ကုန်အချက်အလက်"
 
 msgid "Product price"
-msgstr ""
+msgstr "ထုတ်ကုန်စျေးနှုန်း"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "ထုတ်ကုန်သုံးသပ်ချက်များ"
 
 msgid "Product search"
-msgstr ""
+msgstr "ထုတ်ကုန်ရှာဖွေခြင်း"
 
 msgid "Products you might be also interested in"
-msgstr ""
+msgstr "သင်စိတ်ဝင်စားနိုင်သည့် ထပ်မံထုတ်ကုန်များ"
 
 msgid "Qty"
-msgstr ""
+msgstr "အရေအတွက်"
 
 msgid "Quantity"
 msgstr "အရေအတွက်"
 
 msgid "Rating"
-msgstr ""
+msgstr "အဆင့်သတ်မှတ်ချက်"
 
 msgid "Reference"
-msgstr ""
+msgstr "ရည်ညွှန်းချက်"
 
 msgid "Relevance"
-msgstr ""
+msgstr "သက်ဆိုင်မှု"
 
 msgid "Remove"
-msgstr ""
+msgstr "ဖယ်ရှားပါ"
 
 msgid "Reset"
-msgstr ""
+msgstr "ပြန်စတင်"
 
 #, php-format
 msgid "Result for \"%1$s\""
-msgstr ""
+msgstr "\"%1$s\" အတွက် ရလဒ်"
 
 msgid "Reviews"
-msgstr ""
+msgstr "သုံးသပ်ချက်များ"
 
 msgid "SKU or article name"
-msgstr ""
+msgstr "SKU သို့မဟုတ် ပစ္စည်းအမည်"
 
 msgid "Sale"
-msgstr ""
+msgstr "အရောင်း"
 
 msgid "Salutation"
-msgstr ""
+msgstr "မင်္ဂလာပါ"
 
 msgid "Save"
-msgstr ""
+msgstr "သိမ်းဆည်း"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "အိတ်ဆောင်ထဲမှ ထုတ်ပစ္ထားသော ပစ္စည်းကို အောင်မြင်စွာ ဖယ်ရှားပြီးပါပြီ။"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "သိမ်းထားသော စည်များ"
 
 msgid "Search"
-msgstr ""
+msgstr "ရှာဖွေ"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
-msgstr[0] ""
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
+msgstr[0] "<span class=\"searchstring\">\"%1$s\"</span> အတွက် ရှာဖွေမှုရလဒ် (%2$d ဆောင်းပါး)"
 
 msgid "Select country"
-msgstr ""
+msgstr "နိုင်ငံကိုရွေးပါ"
 
 msgid "Select currency"
-msgstr ""
+msgstr "ငွေကြေးကိုရွေးချယ်ပါ"
 
 msgid "Select language"
-msgstr ""
+msgstr "ဘာသာစကားရွေးပါ"
 
 msgid "Select salutation"
-msgstr ""
+msgstr "နှုတ်ဆက်စကားရွေးပါ"
 
 msgid "Select state"
-msgstr ""
+msgstr "ပြည်နယ်ကိုရွေးပါ"
 
 msgid "Share"
-msgstr ""
+msgstr "မျှဝေ"
 
 msgid "Shipping"
-msgstr ""
+msgstr "ပို့ဆောင်ခြင်း"
 
 msgid "Show"
-msgstr ""
+msgstr "ပြသပါ"
 
 msgid "Sort by"
-msgstr ""
+msgstr "စီရန်"
 
 msgid "Sort by:"
-msgstr ""
+msgstr "အလိုက် စီရန်:"
 
 msgid "Stars"
-msgstr ""
+msgstr "ကြယ်များ"
 
 msgid "State"
-msgstr ""
+msgstr "ပြည်နယ်"
 
 msgid "Stock"
 msgstr "Stock"
 
 #, php-format
 msgid "Stock: %1$s, %2$s"
-msgstr ""
+msgstr "စတော့ရှယ်ယာ: %1$s၊ %2$s"
 
 #, php-format
 msgid "Stock: %1$s, %2$s, back on %3$s"
-msgstr ""
+msgstr "စတော့: %1$s၊ %2$s၊ ပြန်လည် %3$s"
 
 msgid "Street"
-msgstr ""
+msgstr "လမ်း"
 
 msgid "Sub-total"
-msgstr ""
+msgstr "အပိုင်းစုစုပေါင်း"
 
 msgid "Submit"
-msgstr ""
+msgstr "တင်သွင်းပါ"
 
 msgid "Subscription ID"
-msgstr ""
+msgstr "စာရင်းသွင်းအိုင်ဒီ"
 
 msgid "Subscription details"
-msgstr ""
+msgstr "စာရင်းသွင်းမှုအသေးစိတ်"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "စာရင်းသွင်းမှုများ"
 
 msgid "Suggested products"
-msgstr ""
+msgstr "အကြံပြု ထုတ်ကုန်များ"
 
 msgid "Sum"
-msgstr ""
+msgstr "စုစုပေါင်း"
 
 msgid "Supplier information"
-msgstr ""
+msgstr "ထောက်ပံ့သူအချက်အလက်"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "ထောက်ပံ့သူစာရင်း"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "ထောက်ပံ့သူများ"
 
 msgid "Take a look"
-msgstr ""
+msgstr "ကြည့်ပါ"
 
 msgid "Telephone"
-msgstr ""
+msgstr "တယ်လီဖုန်း"
 
 msgid "Terms and conditions"
-msgstr ""
+msgstr "စည်းမျဉ်းနှင့် သတ်မှတ်ချက်များ"
 
 msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"သင့်အော်ဒါနှင့် ငွေပေးချေခွင့်ပြုမှုအတွက် ကျေးဇူးတင်ပါသည်။\n"
+"အော်ဒါအသေးစိတ်ပါဝင်သည့် အီးမေးလ်ကို မိနစ်အနည်းငယ်အတွင်း သင့်ထံ ပို့ပေးပါမည်။"
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"သင့်အော်ဒါအတွက် ကျေးဇူးတင်ပါသည်။\n"
+"ကျွန်ုပ်တို့သည် သင့်ငွေပေးချေမှုကို လက်ခံရရှိပြီးဖြစ်ပါသည်။ မိနစ်အနည်းငယ်အတွင်း သင့်အော်ဒါအသေးစိတ်ပါ အီးမေးလ်ကို ပို့ပေးပါမည်။"
 
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "သင့်ပြန်လည်သုံးသပ်ချက်အတွက် ကျေးဇူးတင်ပါသည်။"
 
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
 msgstr ""
+"အော်ဒါကို ဖျက်လိုက်ပါပြီ။\n"
+"သင့်အော်ဒါကို ထပ်မံကြိုးစားလိုပါသလား။"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
 msgstr ""
+"သင့်အော်ဒါအတွက် ငွေပေးချေမှုအတည်ပြုချက်ကို ဆက်လက်စောင့်ဆိုင်းနေဆဲဖြစ်ပါသည်။\n"
+"ငွေပေးချေမှုအတည်ပြုပြီးချင်း သင့်အီးမေးလ်သို့ အတည်ပြုစာတစ်စောင် ပို့ပေးပါမည်။"
 
 msgid "Three month"
-msgstr ""
+msgstr "သုံးလ"
 
 msgid "Time frame"
-msgstr ""
+msgstr "အချိန်ကာလ"
 
 msgid "Title"
-msgstr ""
+msgstr "ခေါင်းစဉ်"
 
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "ပြည့်မျက်နှာပြင်ဖွင့်/ပိတ်"
 
 msgid "Total"
-msgstr ""
+msgstr "စုစုပေါင်း"
 
 msgid "Try again"
-msgstr ""
+msgstr "ထပ်မံကြိုးစားပါ"
 
 msgid "Two weeks"
-msgstr ""
+msgstr "နှစ်ပတ်"
 
 #, php-format
 msgid "Unable to create an account: %1$s"
-msgstr ""
+msgstr "အကောင့်ဖန်တီး၍ မရနိုင်ပါ: %1$s"
 
 #, php-format
 msgid "Unable to save address for customer \"%1$s\": %2$s"
-msgstr ""
+msgstr "ဖောက်သည် \"%1$s\" အတွက် လိပ်စာ သိမ်းဆည်း၍ မရနိုင်ပါ: %2$s"
 
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
 msgstr ""
+"မကံကောင်းစွာဖြင့် သင့်အော်ဒါအတွက် ငွေပေးချေမှုကို ငြင်းပယ်ခံခဲ့ရပါသည်။\n"
+"ထပ်မံကြိုးစားလိုပါသလား?"
 
 msgid "Update"
-msgstr ""
+msgstr "အပ်ဒိတ်"
 
 msgid "Variant"
-msgstr ""
+msgstr "ဗားရှင်း"
 
 msgid "Vat ID"
-msgstr ""
+msgstr "အခွန်နံပါတ်"
 
 msgid "Vendor response"
-msgstr ""
+msgstr "ရောင်းသူ၏ တုံ့ပြန်ချက်"
 
 msgid "Watch"
-msgstr ""
+msgstr "ကြည့်ပါ"
 
 msgid "Watched products"
-msgstr ""
+msgstr "ကြည့်ရှုထားသော ထုတ်ကုန်များ"
 
 msgid "Web site"
-msgstr ""
+msgstr "ဝက်ဘ်ဆိုဒ်"
 
 msgid "What do you think about the product"
-msgstr ""
+msgstr "ထုတ်ကုန်အကြောင်း သင်ဘယ်လိုထင်ပါသလဲ။"
 
 msgid "Y-m-d"
 msgstr "d/m/Y"
@@ -851,123 +871,123 @@ msgid "YYYY-MM-DD HH:mm"
 msgstr "နေ့/လ/နှစ် နာရီ-မိနစ်"
 
 msgid "You are here:"
-msgstr ""
+msgstr "သင်ဤနေရာတွင် ရှိပါသည်။"
 
 #, php-format
 msgid "You can only save up to %1$s products as favorites"
-msgstr ""
+msgstr "သင်သည် %1$s ထုတ်ကုန်များကိုသာ အကြိုက်ဆုံးအဖြစ် သိမ်းဆည်းနိုင်ပါသည်။"
 
 #, php-format
 msgid "You can only watch up to %1$s products"
-msgstr ""
+msgstr "သင်သည် %1$s အထိသာ ထုတ်ကုန်များကို ကြည့်ရှုနိုင်ပါသည်။"
 
 msgid "You must log in first"
-msgstr ""
+msgstr "သင်သည် ပထမဦးစွာ လော့ဂ်အင် ဝင်ရမည်။"
 
 msgid "You will now be forwarded to the next step"
-msgstr ""
+msgstr "ယခု သင်အား နောက်အဆင့်သို့ ပို့ဆောင်မည်။"
 
 msgid "Your choice"
-msgstr ""
+msgstr "သင့်ရွေးချယ်မှု"
 
 msgid "Your comment"
-msgstr ""
+msgstr "သင့်မှတ်ချက်"
 
 msgid "Your rating"
-msgstr ""
+msgstr "သင့်အဆင့်သတ်မှတ်ချက်"
 
 msgid "Your reference"
-msgstr ""
+msgstr "သင့်ရည်ညွှန်းချက်"
 
 msgid "Your reference number"
-msgstr ""
+msgstr "သင့်ရည်ညွှန်းနံပါတ်"
 
 msgid "Your review"
-msgstr ""
+msgstr "သင့်ပြန်လည်သုံးသပ်ချက်"
 
 msgid "Zoom in/out"
-msgstr ""
+msgstr "ချဲ့ထွင်/သေးငယ်"
 
 #, php-format
 msgid "address"
-msgstr ""
+msgstr "လိပ်စာ"
 
 #, php-format
 msgid "delivery"
-msgstr ""
+msgstr "ပို့ဆောင်ခြင်း"
 
 msgid "favorite"
 msgstr "နှစ်သက်သည်"
 
 #, php-format
 msgid "from %1$s"
-msgstr ""
+msgstr "မှ %1$s"
 
 msgid "like billing address"
-msgstr ""
+msgstr "ဘီလ်လိပ်စာကဲ့သို့"
 
 msgid "new address"
-msgstr ""
+msgstr "လိပ်စာအသစ်"
 
 msgid "none"
-msgstr ""
+msgstr "မရှိပါ"
 
 msgid "on request"
-msgstr ""
+msgstr "တောင်းဆိုပါက"
 
 #, php-format
 msgid "payment"
-msgstr ""
+msgstr "ငွေပေးချေမှု"
 
 msgid "pin"
-msgstr ""
+msgstr "တံကလစ်"
 
 msgid "price:default"
-msgstr ""
+msgstr "စျေးနှုန်း:မူလတန်ဖိုး"
 
 #, php-format
 msgid "process"
-msgstr ""
+msgstr "လုပ်ငန်းစဉ်"
 
 msgid "stock-high"
-msgstr ""
+msgstr "စတော့ရှယ်ယာဈေးအမြင့်ဆုံး"
 
 msgid "stock-low"
-msgstr ""
+msgstr "စတော့ရှယ်ယာဈေးနိမ့်"
 
 msgid "stock-out"
-msgstr ""
+msgstr "ကုန်ပစ္စည်းမလုံလောက်ခြင်း"
 
 msgid "stock-unlimited"
-msgstr ""
+msgstr "စတော့ရှယ်ယာ အကန့်အသတ်မဲ့"
 
 #, php-format
 msgid "summary"
-msgstr ""
+msgstr "အကျဉ်းချုပ်"
 
 msgid "watch"
 msgstr "ကြည့်မည်"
 
 msgid "▲ Name"
-msgstr ""
+msgstr "▲ အမည်"
 
 msgid "▲ Price"
-msgstr ""
+msgstr "▲ စျေးနှုန်း"
 
 msgid "▶"
-msgstr ""
+msgstr "▶"
 
 msgid "▶▶"
-msgstr ""
+msgstr "▶▶"
 
 msgid "▼ Name"
-msgstr ""
+msgstr "▼ အမည်"
 
 msgid "▼ Price"
-msgstr ""
+msgstr "▼ စျေးနှုန်း"
 
 msgid "◀"
-msgstr ""
+msgstr "◀"
 
 msgid "◀◀"
-msgstr ""
+msgstr "◀◀"

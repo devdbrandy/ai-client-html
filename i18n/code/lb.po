@@ -1,154 +1,145 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# 
-# Translators:
-# Translators:
-# Translators:
-# Translators:
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: lb\n"
+"Language-Team: Luxembourgish (http://app.transifex.com/aimeos/aimeos-core/language/lb/)\n"
+"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
-"Language-Team: Luxembourgish (http://app.transifex.com/aimeos/aimeos-core/language/lb/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: lb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Tax name
-msgid "tax"
-msgstr ""
+#. Product attribute
+msgid "color"
+msgstr "Faarf"
 
-#. PST tax name
-msgid "taxpst"
-msgstr ""
+#. Pick-up date
+msgid "date.value"
+msgstr "Datumwäert"
 
-#. GST tax name
-msgid "taxgst"
-msgstr ""
+#. Delivery type
+msgid "delivery.type"
+msgstr "liwwerungstyp"
 
-#. Price type default
-msgid "price:default"
-msgstr "%1$s%2$s"
+#. Direct debit service provider
+msgid "directdebit.accountno"
+msgstr "direktdebit.kontonummer"
 
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
+#. Direct debit service provider
+msgid "directdebit.accountowner"
+msgstr "directdebit.kontoubereigner"
+
+#. Direct debit service provider
+msgid "directdebit.bankcode"
+msgstr "direktabbuchung.bankcode"
+
+#. Direct debit service provider
+msgid "directdebit.bankname"
+msgstr "direktabbuchung.bankennam"
 
 #. Favorite action
 msgid "favorite"
 msgstr "Als Favorit späicheren"
 
-#. Pin action
-msgid "pin"
-msgstr ""
-
-#. Watch action
-msgid "watch"
-msgstr ""
-
-#. Product attribute
-msgid "size"
-msgstr ""
-
 #. Product attribute
 msgid "length"
-msgstr ""
-
-#. Product attribute
-msgid "width"
-msgstr ""
-
-#. Product attribute
-msgid "color"
-msgstr ""
+msgstr "Längt"
 
 #. Product attribute
 msgid "option"
-msgstr ""
-
-#. Product property package-length
-msgid "package-length"
-msgstr ""
-
-#. Product property package-width
-msgid "package-width"
-msgstr ""
+msgstr "Optioun"
 
 #. Product property package-height
 msgid "package-height"
-msgstr ""
+msgstr "Pakethéicht"
+
+#. Product property package-length
+msgid "package-length"
+msgstr "Paketlängt"
 
 #. Product property package-weight
 msgid "package-weight"
-msgstr ""
+msgstr "Paketgewiicht"
 
-#. Direct debit service provider
-msgid "directdebit.accountowner"
-msgstr ""
-
-#. Direct debit service provider
-msgid "directdebit.accountno"
-msgstr ""
-
-#. Direct debit service provider
-msgid "directdebit.bankcode"
-msgstr ""
-
-#. Direct debit service provider
-msgid "directdebit.bankname"
-msgstr ""
-
-#. Omnipay service provider
-msgid "payment.firstname"
-msgstr ""
-
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr ""
+#. Product property package-width
+msgid "package-width"
+msgstr "Paketbreet"
 
 #. Omnipay service provider
 msgid "payment.cardno"
-msgstr ""
+msgstr "Bezuelskaartnummer"
 
 #. Omnipay service provider
 msgid "payment.cvv"
-msgstr ""
-
-#. Omnipay service provider
-msgid "payment.expirymonth"
-msgstr ""
-
-#. Omnipay service provider
-msgid "payment.expiryyear"
-msgstr ""
+msgstr "bezuelung.cvv"
 
 #. Omnipay service provider
 msgid "payment.expiry"
-msgstr ""
+msgstr "Zuelungsablaaf"
 
-#. Pick-up date
-msgid "date.value"
-msgstr ""
+#. Omnipay service provider
+msgid "payment.expirymonth"
+msgstr "Bezuelsablaafsmonat"
 
-#. Pick-up time
-msgid "time.hourminute"
-msgstr ""
+#. Omnipay service provider
+msgid "payment.expiryyear"
+msgstr "Bezuelsverfallsjoer"
 
-#. Pick-up location
-msgid "supplier.code"
-msgstr ""
+#. Omnipay service provider
+msgid "payment.firstname"
+msgstr "bezuelung.vornumm"
+
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "bezuelung.familjenumm"
+
+#. Pin action
+msgid "pin"
+msgstr "Spëtz"
+
+#. Price type default
+msgid "price:default"
+msgstr "%1$s%2$s"
+
+#. Product attribute
+msgid "size"
+msgstr "Gréisst"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
 
 #. Pick-up location
 msgid "supplier.address"
-msgstr ""
+msgstr "Liwwerant.Adress"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr ""
+#. Pick-up location
+msgid "supplier.code"
+msgstr "Liwwerantcode"
+
+#. Tax name
+msgid "tax"
+msgstr "Steier"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "Steier/MwSt."
+
+#. PST tax name
+msgid "taxpst"
+msgstr "Steierpst"
+
+#. Pick-up time
+msgid "time.hourminute"
+msgstr "Zäit.StonnMinutt"
+
+#. Watch action
+msgid "watch"
+msgstr "kucken"
+
+#. Product attribute
+msgid "width"
+msgstr "Breet"

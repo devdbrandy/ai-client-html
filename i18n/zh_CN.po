@@ -1,16 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Cent Os <kylin5108@gmail.com>, 2018
-# Henry LIU <dadaycm@hotmail.com>, 2016
-# shihua16165 <shihua16165@163.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-08 17:50+0200\n"
+"POT-Creation-Date: 2026-04-25 10:00+0200\n"
 "PO-Revision-Date: 2015-07-09 20:33+0000\n"
 "Last-Translator: shihua16165 <shihua16165@163.com>, 2014\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/aimeos/aimeos-core/"
@@ -29,7 +21,7 @@ msgstr[0] "%1$d 产品"
 #, php-format
 msgid "%1$d review"
 msgid_plural "%1$d reviews"
-msgstr[0] ""
+msgstr[0] "%1$d 评论"
 
 #, php-format
 msgid ""

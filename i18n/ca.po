@@ -1,33 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ca\n"
+"Language-Team: Catalan (http://app.transifex.com/aimeos/aimeos-core/language/ca/)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Catalan (http://app.transifex.com/aimeos/aimeos-core/language/ca/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, php-format
 msgid "%1$d article"
 msgid_plural "%1$d articles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d article"
+msgstr[1] "%1$d articles"
 
 #, php-format
 msgid "%1$d review"
 msgid_plural "%1$d reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d ressenya"
+msgstr[1] "%1$d ressenyes"
 
 #, php-format
 msgid ""
@@ -44,7 +39,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -62,143 +72,159 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
-msgstr ""
+msgstr "%1$s %2$s"
 
 #, php-format
 msgid "%1$s %2$s off"
-msgstr ""
+msgstr "%1$s %2$s de descompte"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s a %2$s"
 
 #, php-format
 msgid "%1$s%3$s + %2$s%3$s"
-msgstr ""
+msgstr "%1$s%3$s + %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(s'obre en una finestra nova)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
-msgstr ""
+msgstr "+ %1$s%% %2$s"
 
 #, php-format
 msgid "+ %1$s%% VAT"
-msgstr ""
+msgstr "+ %1$s%% IVA"
 
 msgid "+1 123 456 7890"
-msgstr ""
+msgstr "+1 123 456 7890"
 
 #, php-format
 msgid "-%1$s%%"
-msgstr ""
+msgstr "-1$s%%"
 
 msgid "A non-recoverable error occured"
-msgstr ""
+msgstr "S'ha produït un error no recuperable."
 
 msgid "Add"
 msgstr "Afegir"
 
 msgid "Add billing address"
-msgstr ""
+msgstr "Afegeix l'adreça de facturació"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "Afegeix l'adreça de lliurament"
 
 msgid "Add to basket"
-msgstr ""
+msgstr "Afegeix a la cistella"
 
 msgid "Additional"
-msgstr ""
+msgstr "Addicional"
 
 msgid "Additional 2"
-msgstr ""
+msgstr "Addicional 2"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "L'adreça de la part \"%1$s\" és invàlida"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "L'adreça de la part \"%1$s\" falta"
 
 msgid "Apply"
 msgstr "Aplicar"
 
 msgid "Article"
-msgstr ""
+msgstr "Article"
 
 msgid "Article no."
-msgstr ""
+msgstr "Article núm."
 
 #, php-format
 msgid "At least one billing address part is missing or invalid"
-msgstr ""
+msgstr "Almenys una part de l'adreça de facturació falta o és invàlida."
 
 #, php-format
 msgid "At least one delivery address part is missing or invalid"
-msgstr ""
+msgstr "Almenys una part de l'adreça de lliurament falta o és invàlida."
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "Almenys una part de l'adreça de pagament falta o és invàlida."
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "Almenys un producte no es va poder afegir a la cistella."
 
 msgid "Back"
-msgstr ""
+msgstr "Enrere"
 
 msgid "Basket"
 msgstr "Cistella"
 
 msgid "Basket details"
-msgstr ""
+msgstr "Detalls de la cistella"
 
 msgid "Basket name"
-msgstr ""
+msgstr "Nom de la cistella"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "Cistella guardada amb èxit"
 
 msgid "Billing address"
 msgstr "Adreça de facturació"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "La part \"%1$s\" de l'adreça de facturació és invàlida"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Falta la part \"%1$s\" de l'adreça de facturació"
 
 msgid "Birthday"
 msgstr "Aniversari"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "Navegació de brioixeria"
 
 msgid "Bulk order"
-msgstr ""
+msgstr "Comanda a l'engròs"
 
 msgid "Bundled products"
-msgstr ""
+msgstr "Productes agrupats"
 
 msgid "Buy now"
-msgstr ""
+msgstr "Compra ara"
 
 msgid "Cancel"
 msgstr "Cancel·lar"
@@ -207,41 +233,41 @@ msgid "Categories"
 msgstr "Categories"
 
 msgid "Change"
-msgstr ""
+msgstr "Canvi"
 
 msgid "Change address"
-msgstr ""
+msgstr "Canviar adreça"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "Canviar l'adreça de facturació"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "Canviar cupons"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "Canvia l'entrega"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "Canvia l'adreça de lliurament"
 
 msgid "Change payment"
-msgstr ""
+msgstr "Canviar pagament"
 
 msgid "Change products"
-msgstr ""
+msgstr "Canviar productes"
 
 msgid "Characteristics"
-msgstr ""
+msgstr "Característiques"
 
 msgid "Checkout"
-msgstr ""
+msgstr "Paga"
 
 msgid "City"
 msgstr "Ciutat"
 
 #, php-format
 msgid "Class \"%1$s\" not found"
-msgstr ""
+msgstr "No s'ha trobat la classe \"%1$s\""
 
 msgid "Close"
 msgstr "Tanca"
@@ -250,34 +276,34 @@ msgid "Company"
 msgstr "Comunicació"
 
 msgid "Confirmation"
-msgstr ""
+msgstr "Confirmació"
 
 msgid "Country"
 msgstr "País"
 
 msgid "Coupon codes"
-msgstr ""
+msgstr "Còdis de cupó"
 
 msgid "Coupons"
-msgstr ""
+msgstr "Cupons"
 
 msgid "Create a customer account for me"
-msgstr ""
+msgstr "Crea un compte de client per a mi"
 
 msgid "Created"
 msgstr "Creat"
 
 msgid "Customer account"
-msgstr ""
+msgstr "Compte de client"
 
 msgid "Decrease"
-msgstr ""
+msgstr "Decreixement"
 
 msgid "Delete"
 msgstr "Eliminar"
 
 msgid "Delete item"
-msgstr ""
+msgstr "Suprimeix element"
 
 msgid "Delivery"
 msgstr "Entrega"
@@ -287,30 +313,30 @@ msgstr "Adreça de lliurament"
 
 #, php-format
 msgid "Delivery address deleted successfully"
-msgstr ""
+msgstr "Adreça de lliurament eliminada correctament"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "La part \"%1$s\" de l'adreça de lliurament és invàlida"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Falta la part \"%1$s\" de l'adreça de lliurament"
 
 msgid "Delivery within"
-msgstr ""
+msgstr "Entrega en"
 
 msgid "Description"
-msgstr ""
+msgstr "Descripció"
 
 msgid "Details"
-msgstr ""
+msgstr "Detalls"
 
 msgid "Don't store address"
-msgstr ""
+msgstr "No desar l'adreça"
 
 msgid "Downloads"
-msgstr ""
+msgstr "Descàrregues"
 
 msgid "E-Mail"
 msgstr "Correu electrònic"
@@ -319,16 +345,16 @@ msgid "End date"
 msgstr "Data de finalització"
 
 msgid "Favorite products"
-msgstr ""
+msgstr "Productes preferits"
 
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 msgid "Fields with an * are mandatory"
-msgstr ""
+msgstr "Els camps amb un * són obligatoris."
 
 msgid "Filter"
-msgstr ""
+msgstr "Filtre"
 
 msgid "First"
 msgstr "Primer"
@@ -337,82 +363,71 @@ msgid "First name"
 msgstr "Nom"
 
 msgid "Found products"
-msgstr ""
+msgstr "Productes trobats"
 
 msgid "GB999999973"
-msgstr ""
+msgstr "GB999999973"
 
 msgid "Go to page"
-msgstr ""
+msgstr "Ves a la pàgina"
 
 msgid "Grid view"
-msgstr ""
+msgstr "Vista en quadrícula"
 
 msgid "HH:mm"
-msgstr ""
+msgstr "HH:mm"
 
 msgid "Highest price"
-msgstr ""
+msgstr "Preu més alt"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "Accepto els <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">termes i condicions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">la política de privacitat</a> i <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">la política de cancel·lació.</a>"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
+msgstr "Accepto els <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">termes i condicions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">la política de privacitat</a> i <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">la política de cancel·lació.</a>"
 
 msgid "If back in stock"
-msgstr ""
+msgstr "Si torna a estar en estoc"
 
 msgid "If price decreases"
-msgstr ""
+msgstr "Si el preu disminueix"
 
 #, php-format
 msgid "Incl. %1$s%% %2$s"
-msgstr ""
+msgstr "Incl. %1$s%% %2$s"
 
 #, php-format
 msgid "Incl. %1$s%% VAT"
-msgstr ""
+msgstr "Incl. %1$s%% IVA"
 
 msgid "Included rebates"
-msgstr ""
+msgstr "Rebuts inclosos"
 
 msgid "Increase"
-msgstr ""
+msgstr "Augmentar"
 
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 #, php-format
 msgid "Invalid characters in client name \"%1$s\""
-msgstr ""
+msgstr "Caràcters invàlids en el nom del client \"%1$s\""
 
 #, php-format
 msgid "Invalid class name \"%1$s\""
-msgstr ""
+msgstr "Nom de classe invàlid \"%1$s\""
 
 #, php-format
 msgid "Invalid domain \"%1$s\""
-msgstr ""
+msgstr "Domini invàlid \"%1$s\""
 
 msgid "Invoice"
 msgstr "Factura"
 
 msgid "Language"
-msgstr ""
+msgstr "Llengua"
 
 msgid "Last"
 msgstr "Últim"
@@ -421,19 +436,19 @@ msgid "Last name"
 msgstr "Cognom"
 
 msgid "Last seen"
-msgstr ""
+msgstr "Vist per darrer cop"
 
 msgid "Latest"
-msgstr ""
+msgstr "Últims"
 
 msgid "Less"
-msgstr ""
+msgstr "Menys"
 
 msgid "List view"
-msgstr ""
+msgstr "Vista en llista"
 
 msgid "Lowest price"
-msgstr ""
+msgstr "Preu més baix"
 
 msgid "Mobile"
 msgstr "Mòbil"
@@ -445,7 +460,7 @@ msgid "More"
 msgstr "Més"
 
 msgid "More reviews"
-msgstr ""
+msgstr "Més ressenyes"
 
 msgid "Name"
 msgstr "Nom"
@@ -454,107 +469,105 @@ msgid "New"
 msgstr "Nou"
 
 msgid "New delivery address"
-msgstr ""
+msgstr "Nova adreça de lliurament"
 
 msgid "Next"
 msgstr "Següent"
 
 msgid "Next order"
-msgstr ""
+msgstr "Següent comanda"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
-msgstr ""
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
+msgstr "No s'han trobat articles per a <span class=\"searchstring\">\"%1$s\"</span>. Torni a provar amb una altra paraula clau."
 
 msgid "No order ID available in session"
-msgstr ""
+msgstr "No hi ha cap ID de comanda disponible a la sessió."
 
 #, php-format
 msgid "No view available"
-msgstr ""
+msgstr "No hi ha cap vista disponible"
 
 msgid "One month"
-msgstr ""
+msgstr "Un mes"
 
 msgid "One week"
-msgstr ""
+msgstr "Una setmana"
 
 msgid "Open submenu"
-msgstr ""
+msgstr "Obre el submenú"
 
 msgid "Order ID"
 msgstr "ID de comanda"
 
 msgid "Order details"
-msgstr ""
+msgstr "Detalls de la comanda"
 
 msgid "Order history"
-msgstr ""
+msgstr "Historial de comandes"
 
 msgid "Order status"
-msgstr ""
+msgstr "Estat de la comanda"
 
 msgid "Other customers also bought"
-msgstr ""
+msgstr "Altres clients també han comprat"
 
 #, php-format
 msgid "Page %1$d of %2$d"
-msgstr ""
+msgstr "Pàgina %1$d de %2$d"
 
 msgid "Pay now"
-msgstr ""
+msgstr "Paga ara"
 
 msgid "Payment"
 msgstr "Pagament"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "La part \"%1$s\" de l'adreça de pagament és invàlida"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Falta la part \"%1$s\" de l'adreça de pagament"
 
 msgid "Payment costs"
-msgstr ""
+msgstr "Costos de pagament"
 
 msgid "Payment status"
 msgstr "Estat del pagament"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Percentatge"
 
 msgid "Pin product"
-msgstr ""
+msgstr "Fixa el producte"
 
 msgid "Pinned products"
-msgstr ""
+msgstr "Productes fixats"
 
 msgid "Please accept the terms and conditions"
-msgstr ""
+msgstr "Si us plau, accepteu els termes i les condicions."
 
 msgid "Please check your order"
-msgstr ""
+msgstr "Si us plau, comproveu la vostra comanda."
 
 msgid "Please choose your delivery method"
-msgstr ""
+msgstr "Si us plau, trieu el vostre mètode d'enviament"
 
 msgid "Please choose your payment method"
-msgstr ""
+msgstr "Si us plau, trieu el vostre mètode de pagament"
 
 msgid "Please enter at least three characters"
-msgstr ""
+msgstr "Introduïu com a mínim tres caràcters"
 
 msgid "Please enter your payment details"
-msgstr ""
+msgstr "Introduïu les dades del vostre pagament"
 
 msgid "Please select"
 msgstr "Si us plau, selecciona"
 
 msgid "Postal code"
-msgstr ""
+msgstr "Codi postal"
 
 msgid "Previous"
 msgstr "Anterior"
@@ -563,285 +576,293 @@ msgid "Price"
 msgstr "Preu"
 
 msgid "Price filter"
-msgstr ""
+msgstr "Filtre de preu"
 
 msgid "Price range"
-msgstr ""
+msgstr "Gama de preus"
 
 msgid "Proceed"
-msgstr ""
+msgstr "Procedir"
 
 msgid "Processing the payment failed"
-msgstr ""
+msgstr "El processament del pagament ha fallat"
 
 msgid "Product"
 msgstr "Producte"
 
 msgid "Product actions"
-msgstr ""
+msgstr "Accions del producte"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "Atributs del producte"
 
 msgid "Product categories"
-msgstr ""
+msgstr "Categories de productes"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "Característiques del producte"
 
 msgid "Product description"
-msgstr ""
+msgstr "Descripció del producte"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "Descàrregues de productes"
 
 msgid "Product filters"
-msgstr ""
+msgstr "Filtres de producte"
 
 msgid "Product image"
-msgstr ""
+msgstr "Imatge del producte"
 
 msgid "Product information"
-msgstr ""
+msgstr "Informació del producte"
 
 msgid "Product price"
 msgstr "Preu del producte"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "Ressenyes de productes"
 
 msgid "Product search"
-msgstr ""
+msgstr "Cerca de productes"
 
 msgid "Products you might be also interested in"
-msgstr ""
+msgstr "Productes que també et poden interessar"
 
 msgid "Qty"
-msgstr ""
+msgstr "Quantitat"
 
 msgid "Quantity"
-msgstr ""
+msgstr "Quantitat"
 
 msgid "Rating"
-msgstr ""
+msgstr "Puntuació"
 
 msgid "Reference"
-msgstr ""
+msgstr "Referència"
 
 msgid "Relevance"
-msgstr ""
+msgstr "Relevància"
 
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 msgid "Reset"
-msgstr ""
+msgstr "Restablir"
 
 #, php-format
 msgid "Result for \"%1$s\""
-msgstr ""
+msgstr "Resultat per a \"%1$s\""
 
 msgid "Reviews"
-msgstr ""
+msgstr "Ressenyes"
 
 msgid "SKU or article name"
-msgstr ""
+msgstr "SKU o nom de l'article"
 
 msgid "Sale"
-msgstr ""
+msgstr "Rebaixes"
 
 msgid "Salutation"
-msgstr ""
+msgstr "Salutació"
 
 msgid "Save"
-msgstr ""
+msgstr "Desa"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "La cistella eliminada s'ha eliminat amb èxit"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "Cistelles guardades"
 
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
+msgstr[0] "Resultat de la cerca per <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
+msgstr[1] "Resultat de la cerca per <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
 
 msgid "Select country"
-msgstr ""
+msgstr "Seleccioneu país"
 
 msgid "Select currency"
-msgstr ""
+msgstr "Seleccioneu la moneda"
 
 msgid "Select language"
-msgstr ""
+msgstr "Seleccioneu l'idioma"
 
 msgid "Select salutation"
-msgstr ""
+msgstr "Seleccioneu la salutació"
 
 msgid "Select state"
-msgstr ""
+msgstr "Selecciona estat"
 
 msgid "Share"
-msgstr ""
+msgstr "Comparteix"
 
 msgid "Shipping"
-msgstr ""
+msgstr "Enviament"
 
 msgid "Show"
-msgstr ""
+msgstr "Mostra"
 
 msgid "Sort by"
-msgstr ""
+msgstr "Ordena per"
 
 msgid "Sort by:"
-msgstr ""
+msgstr "Ordena per:"
 
 msgid "Stars"
-msgstr ""
+msgstr "Estrelles"
 
 msgid "State"
-msgstr ""
+msgstr "Estat"
 
 msgid "Stock"
 msgstr "Stock"
 
 #, php-format
 msgid "Stock: %1$s, %2$s"
-msgstr ""
+msgstr "Estoc: %1$s, %2$s"
 
 #, php-format
 msgid "Stock: %1$s, %2$s, back on %3$s"
-msgstr ""
+msgstr "Estoc: %1$s, %2$s, de nou a %3$s"
 
 msgid "Street"
-msgstr ""
+msgstr "Carrer"
 
 msgid "Sub-total"
-msgstr ""
+msgstr "Subtotal"
 
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 msgid "Subscription ID"
-msgstr ""
+msgstr "ID de subscripció"
 
 msgid "Subscription details"
-msgstr ""
+msgstr "Detalls de la subscripció"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "Subscripcions"
 
 msgid "Suggested products"
-msgstr ""
+msgstr "Productes suggerits"
 
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 msgid "Supplier information"
-msgstr ""
+msgstr "Informació del proveïdor"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "Llista de proveïdors"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "Proveïdors"
 
 msgid "Take a look"
-msgstr ""
+msgstr "Fes-hi un cop d'ull"
 
 msgid "Telephone"
-msgstr ""
+msgstr "Telèfon"
 
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Termes i condicions"
 
 msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Gràcies per la seva comanda i per autoritzar el pagament.\n"
+"En pocs minuts rebrà un correu electrònic amb els detalls de la comanda."
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Gràcies per la seva comanda.\n"
+"Hem rebut el seu pagament i li enviarem un correu electrònic amb els detalls de la comanda en els propers minuts."
 
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "Gràcies per la vostra ressenya!"
 
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
 msgstr ""
+"La comanda s'ha cancel·lat.\n"
+"Voleu tornar a intentar la comanda?"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
 msgstr ""
+"La confirmació del pagament de la vostra comanda encara està pendent.\n"
+"Rebreu un correu electrònic tan aviat com el pagament estigui autoritzat."
 
 msgid "Three month"
-msgstr ""
+msgstr "Tres mesos"
 
 msgid "Time frame"
-msgstr ""
+msgstr "Marc temporal"
 
 msgid "Title"
-msgstr ""
+msgstr "Títol"
 
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Canvia a pantalla completa"
 
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 msgid "Try again"
-msgstr ""
+msgstr "Torna a provar"
 
 msgid "Two weeks"
-msgstr ""
+msgstr "Dues setmanes"
 
 #, php-format
 msgid "Unable to create an account: %1$s"
-msgstr ""
+msgstr "Impossible de crear un compte: %1$s"
 
 #, php-format
 msgid "Unable to save address for customer \"%1$s\": %2$s"
-msgstr ""
+msgstr "Impossible d'emmagatzemar l'adreça del client \"%1$s\": %2$s"
 
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
 msgstr ""
+"Malauradament, el pagament de la teva comanda ha estat rebutjat.\n"
+"Vols tornar-ho a provar?"
 
 msgid "Update"
-msgstr ""
+msgstr "Actualització"
 
 msgid "Variant"
-msgstr ""
+msgstr "Variant"
 
 msgid "Vat ID"
-msgstr ""
+msgstr "NIF"
 
 msgid "Vendor response"
-msgstr ""
+msgstr "Resposta del venedor"
 
 msgid "Watch"
-msgstr ""
+msgstr "Mira"
 
 msgid "Watched products"
-msgstr ""
+msgstr "Productes vistos"
 
 msgid "Web site"
-msgstr ""
+msgstr "Lloc web"
 
 msgid "What do you think about the product"
-msgstr ""
+msgstr "Què en penses del producte?"
 
 msgid "Y-m-d"
 msgstr "d/m/Y"
@@ -853,123 +874,123 @@ msgid "YYYY-MM-DD HH:mm"
 msgstr "DD/MM/AAAA hh:mm"
 
 msgid "You are here:"
-msgstr ""
+msgstr "Sou aquí:"
 
 #, php-format
 msgid "You can only save up to %1$s products as favorites"
-msgstr ""
+msgstr "Només podeu afegir com a favorits fins a %1$s productes."
 
 #, php-format
 msgid "You can only watch up to %1$s products"
-msgstr ""
+msgstr "Només podeu veure fins a %1$s productes"
 
 msgid "You must log in first"
-msgstr ""
+msgstr "Primer has d'iniciar la sessió."
 
 msgid "You will now be forwarded to the next step"
-msgstr ""
+msgstr "Ara se us redirigirà al següent pas."
 
 msgid "Your choice"
-msgstr ""
+msgstr "La teva elecció"
 
 msgid "Your comment"
-msgstr ""
+msgstr "El teu comentari"
 
 msgid "Your rating"
-msgstr ""
+msgstr "La teva valoració"
 
 msgid "Your reference"
-msgstr ""
+msgstr "La vostra referència"
 
 msgid "Your reference number"
-msgstr ""
+msgstr "El seu número de referència"
 
 msgid "Your review"
-msgstr ""
+msgstr "La teva ressenya"
 
 msgid "Zoom in/out"
-msgstr ""
+msgstr "Apropament/allunyament"
 
 #, php-format
 msgid "address"
-msgstr ""
+msgstr "adreça"
 
 #, php-format
 msgid "delivery"
-msgstr ""
+msgstr "Lliurament"
 
 msgid "favorite"
-msgstr ""
+msgstr "favorit"
 
 #, php-format
 msgid "from %1$s"
-msgstr ""
+msgstr "de %1$s"
 
 msgid "like billing address"
-msgstr ""
+msgstr "com l'adreça de facturació"
 
 msgid "new address"
-msgstr ""
+msgstr "nova adreça"
 
 msgid "none"
-msgstr ""
+msgstr "cap"
 
 msgid "on request"
-msgstr ""
+msgstr "a petició"
 
 #, php-format
 msgid "payment"
-msgstr ""
+msgstr "pagament"
 
 msgid "pin"
-msgstr ""
+msgstr "agulla"
 
 msgid "price:default"
-msgstr ""
+msgstr "preu:per defecte"
 
 #, php-format
 msgid "process"
-msgstr ""
+msgstr "procés"
 
 msgid "stock-high"
-msgstr ""
+msgstr "acció en màxim"
 
 msgid "stock-low"
-msgstr ""
+msgstr "baix de borsa"
 
 msgid "stock-out"
-msgstr ""
+msgstr "esgotament de les existències"
 
 msgid "stock-unlimited"
-msgstr ""
+msgstr "estoc-il·limitat"
 
 #, php-format
 msgid "summary"
-msgstr ""
+msgstr "Resum"
 
 msgid "watch"
-msgstr ""
+msgstr "mirar"
 
 msgid "▲ Name"
-msgstr ""
+msgstr "▲ Nom"
 
 msgid "▲ Price"
-msgstr ""
+msgstr "▲ Preu"
 
 msgid "▶"
-msgstr ""
+msgstr "▶"
 
 msgid "▶▶"
-msgstr ""
+msgstr "▶▶"
 
 msgid "▼ Name"
-msgstr ""
+msgstr "▼ Nom"
 
 msgid "▼ Price"
-msgstr ""
+msgstr "▼ Preu"
 
 msgid "◀"
-msgstr ""
+msgstr "◀"
 
 msgid "◀◀"
-msgstr ""
+msgstr "◀◀"

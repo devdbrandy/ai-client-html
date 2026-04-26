@@ -1,23 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Jeremy Flammang, 2022
-# Jeremy Flammang, 2022
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: lb\n"
+"Language-Team: Luxembourgish (http://app.transifex.com/aimeos/aimeos-core/language/lb/)\n"
+"Last-Translator: Jeremy Flammang, 2022\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: Jeremy Flammang, 2022\n"
-"Language-Team: Luxembourgish (http://app.transifex.com/aimeos/aimeos-core/language/lb/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: lb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, php-format
 msgid "%1$d article"
@@ -46,7 +39,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
-msgstr "%1$s\n%2$s%3$s%4$s%5$s\n%6$s%7$s\n%8$s\n%9$s%10$s\n%11$s\n%12$s\n%13$s\n%14$s\n%15$s\n%16$s\n%17$s\n%18$s\n"
+""
+msgstr ""
+"%1$s\n"
+"%2$s%3$s%4$s%5$s\n"
+"%6$s%7$s\n"
+"%8$s\n"
+"%9$s%10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -64,7 +72,23 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
@@ -76,7 +100,7 @@ msgstr "%1$s%2$s Rabatt"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
@@ -87,11 +111,11 @@ msgid "%1$s%3$s + %2$s%3$s"
 msgstr "%1$s%3$s + %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(maacht an engem neie Fënster op)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
@@ -118,7 +142,7 @@ msgid "Add billing address"
 msgstr "Rechnungsadress dobäisetzen"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "Liwwerungsadress derbäisetzen"
 
 msgid "Add to basket"
 msgstr "An de Käddi"
@@ -131,14 +155,14 @@ msgstr "Zousätzlech 2"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "D'Adressdeel \"%1$s\" ass ongëlteg"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "D'Adressdeel \"%1$s\" feelt."
 
 msgid "Apply"
-msgstr ""
+msgstr "Uwende"
 
 msgid "Article"
 msgstr "Artikel"
@@ -156,10 +180,10 @@ msgstr "Mindestens een Deel vun der Liwweradress fehlt oder as ongülteg"
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "Mindestens ee Bestanddeel vun der Bezueladress feelt oder ass ongëlteg."
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "Mindestens ee Produkt konnt net an de Kuerf derbäigesat ginn."
 
 msgid "Back"
 msgstr "Zeréck"
@@ -168,13 +192,13 @@ msgid "Basket"
 msgstr "Käddi"
 
 msgid "Basket details"
-msgstr ""
+msgstr "Kuerfdetailer"
 
 msgid "Basket name"
-msgstr ""
+msgstr "Kuerf-Numm"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "Kuerf gouf erfollegräich gespäichert"
 
 msgid "Billing address"
 msgstr "Rechnungsadress"
@@ -191,7 +215,7 @@ msgid "Birthday"
 msgstr "Gebuertsdaag"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "Brotkrumen-Navigatioun"
 
 msgid "Bulk order"
 msgstr "Groussbestellung"
@@ -212,25 +236,25 @@ msgid "Change"
 msgstr "Wiesselen"
 
 msgid "Change address"
-msgstr ""
+msgstr "Adress änneren"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "Rechnungsadress änneren"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "Coupons änneren"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "Liwwerung änneren"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "Liwweradress änneren"
 
 msgid "Change payment"
 msgstr "Bezuelung änneren"
 
 msgid "Change products"
-msgstr ""
+msgstr "Produkter änneren"
 
 msgid "Characteristics"
 msgstr "Characteristiken"
@@ -243,607 +267,596 @@ msgstr "Stadt"
 
 #, php-format
 msgid "Class \"%1$s\" not found"
-msgstr ""
+msgstr "Klass \"%1$s\" net fonnt"
 
 msgid "Close"
-msgstr ""
+msgstr "Zoumaachen"
 
 msgid "Company"
-msgstr ""
+msgstr "Firma"
 
 msgid "Confirmation"
-msgstr ""
+msgstr "Bestätegung"
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid "Coupon codes"
-msgstr ""
+msgstr "Coupon-Coden"
 
 msgid "Coupons"
-msgstr ""
+msgstr "Koupongen"
 
 msgid "Create a customer account for me"
-msgstr ""
+msgstr "Maacht fir mech e Clientekonto op."
 
 msgid "Created"
-msgstr ""
+msgstr "geschaf"
 
 msgid "Customer account"
-msgstr ""
+msgstr "Clientekonto"
 
 msgid "Decrease"
-msgstr ""
+msgstr "Ofsenkung"
 
 msgid "Delete"
-msgstr ""
+msgstr "Läschen"
 
 msgid "Delete item"
-msgstr ""
+msgstr "Element läschen"
 
 msgid "Delivery"
-msgstr ""
+msgstr "Liwwerung"
 
 msgid "Delivery address"
-msgstr ""
+msgstr "Liwwerungsadress"
 
 #, php-format
 msgid "Delivery address deleted successfully"
-msgstr ""
+msgstr "Liwwerungsadress erfollegräich geläscht"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "De Liwwerungsadressdeel \"%1$s\" ass ongëlteg"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is missing"
-msgstr ""
+msgstr "De Liwwerungsadressdeel \"%1$s\" feelt."
 
 msgid "Delivery within"
-msgstr ""
+msgstr "Liwwerung bannent"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreiwung"
 
 msgid "Details"
-msgstr ""
+msgstr "Detailer"
 
 msgid "Don't store address"
-msgstr ""
+msgstr "Späichert d'Adress net"
 
 msgid "Downloads"
-msgstr ""
+msgstr "Downloaden"
 
 msgid "E-Mail"
-msgstr ""
+msgstr "E-Mail"
 
 msgid "End date"
-msgstr ""
+msgstr "Enndatum"
 
 msgid "Favorite products"
-msgstr ""
+msgstr "Lieblingsprodukter"
 
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 msgid "Fields with an * are mandatory"
-msgstr ""
+msgstr "Felder mat engem * si obligatoresch."
 
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 msgid "First"
-msgstr ""
+msgstr "Éischt"
 
 msgid "First name"
-msgstr ""
+msgstr "Virnumm"
 
 msgid "Found products"
-msgstr ""
+msgstr "Gefonnene Produkter"
 
 msgid "GB999999973"
-msgstr ""
+msgstr "GB999999973"
 
 msgid "Go to page"
-msgstr ""
+msgstr "Gitt op d'Säit"
 
 msgid "Grid view"
-msgstr ""
+msgstr "Gitteransicht"
 
 msgid "HH:mm"
-msgstr ""
+msgstr "HH:mm"
 
 msgid "Highest price"
-msgstr ""
+msgstr "Héchsten Präis"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "Ech akzeptéieren d'<a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">Allgemeng Bedéngungen</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">d'Datenschutzpolitik</a> an <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">d'Annuléierungsbedingunge.</a>"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
+msgstr "Ech akzeptéieren d'<a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">Allgemeng Bedéngungen</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">d'Datenschutzpolitik</a> an <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">d'Annuléierungsbedingunge.</a>"
 
 msgid "If back in stock"
-msgstr ""
+msgstr "Wann et erëm op Lager ass"
 
 msgid "If price decreases"
-msgstr ""
+msgstr "Wann de Präis erofgeet"
 
 #, php-format
 msgid "Incl. %1$s%% %2$s"
-msgstr ""
+msgstr "Inkl. %1$s%% %2$s"
 
 #, php-format
 msgid "Incl. %1$s%% VAT"
-msgstr ""
+msgstr "Inkl. %1$s%% MwSt."
 
 msgid "Included rebates"
-msgstr ""
+msgstr "Abzuchräbater abegraff"
 
 msgid "Increase"
-msgstr ""
+msgstr "Erhéijung"
 
 msgid "Interval"
-msgstr ""
+msgstr "Intervall"
 
 #, php-format
 msgid "Invalid characters in client name \"%1$s\""
-msgstr ""
+msgstr "Onvalidéiert Zeechen am Clientennumm \"%1$s\""
 
 #, php-format
 msgid "Invalid class name \"%1$s\""
-msgstr ""
+msgstr "Onvalide Klassennumm \"%1$s\""
 
 #, php-format
 msgid "Invalid domain \"%1$s\""
-msgstr ""
+msgstr "Onvalidéiert Domain \"%1$s\""
 
 msgid "Invoice"
-msgstr ""
+msgstr "Rechnung"
 
 msgid "Language"
-msgstr ""
+msgstr "Sprooch"
 
 msgid "Last"
-msgstr ""
+msgstr "lescht"
 
 msgid "Last name"
-msgstr ""
+msgstr "Numm"
 
 msgid "Last seen"
-msgstr ""
+msgstr "Lescht gesinn"
 
 msgid "Latest"
-msgstr ""
+msgstr "Neist"
 
 msgid "Less"
-msgstr ""
+msgstr "manner"
 
 msgid "List view"
-msgstr ""
+msgstr "Lëscht-Usiicht"
 
 msgid "Lowest price"
-msgstr ""
+msgstr "Déi niddregst Präis"
 
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 msgid "Mobile number"
-msgstr ""
+msgstr "Mobilnummer"
 
 msgid "More"
-msgstr ""
+msgstr "Méi"
 
 msgid "More reviews"
-msgstr ""
+msgstr "Méi Rezensiounen"
 
 msgid "Name"
-msgstr ""
+msgstr "Numm"
 
 msgid "New"
-msgstr ""
+msgstr "Nei"
 
 msgid "New delivery address"
-msgstr ""
+msgstr "Nei Liwweradress"
 
 msgid "Next"
-msgstr ""
+msgstr "Nächst"
 
 msgid "Next order"
-msgstr ""
+msgstr "Nächst Uerder"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
-msgstr ""
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
+msgstr "Keng Artikelen fonnt fir <span class=\"searchstring\">\"%1$s\"</span>. Probéiert w.e.g. nach eng Kéier mat engem aneren Schlësselwuert."
 
 msgid "No order ID available in session"
-msgstr ""
+msgstr "Keng Bestell-ID an der Sessioun verfügbar"
 
 #, php-format
 msgid "No view available"
-msgstr ""
+msgstr "Keng Vue verfügbar"
 
 msgid "One month"
-msgstr ""
+msgstr "Een Mount"
 
 msgid "One week"
-msgstr ""
+msgstr "Eng Woch"
 
 msgid "Open submenu"
-msgstr ""
+msgstr "Ënnermenü opmaachen"
 
 msgid "Order ID"
-msgstr ""
+msgstr "Bestellung-ID"
 
 msgid "Order details"
-msgstr ""
+msgstr "Bestelldetailer"
 
 msgid "Order history"
-msgstr ""
+msgstr "Bestellgeschicht"
 
 msgid "Order status"
-msgstr ""
+msgstr "Bestellungsstatus"
 
 msgid "Other customers also bought"
-msgstr ""
+msgstr "Aner Clienten hunn och kaaft"
 
 #, php-format
 msgid "Page %1$d of %2$d"
-msgstr ""
+msgstr "Säit %1$d vun %2$d"
 
 msgid "Pay now"
-msgstr ""
+msgstr "Bezuel elo"
 
 msgid "Payment"
-msgstr ""
+msgstr "Bezuelung"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "De Bezuelsadressdeel \"%1$s\" ass ongëlteg"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "De Bezuelsadressdeel \"%1$s\" feelt."
 
 msgid "Payment costs"
-msgstr ""
+msgstr "Bezuelungskäschten"
 
 msgid "Payment status"
-msgstr ""
+msgstr "Bezuelungsstatus"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Prozent"
 
 msgid "Pin product"
-msgstr ""
+msgstr "Produkt festpinnen"
 
 msgid "Pinned products"
-msgstr ""
+msgstr "gespäichert Produkter"
 
 msgid "Please accept the terms and conditions"
-msgstr ""
+msgstr "W.e.g. akzeptéiert d'Allgemeng Bedéngungen."
 
 msgid "Please check your order"
-msgstr ""
+msgstr "W.e.g. iwwerpréift Är Bestellung."
 
 msgid "Please choose your delivery method"
-msgstr ""
+msgstr "Wielt w.e.g. Är Liwwerungsmethod."
 
 msgid "Please choose your payment method"
-msgstr ""
+msgstr "Wielt w.e.g. Är Bezuelmethod."
 
 msgid "Please enter at least three characters"
-msgstr ""
+msgstr "Gitt w.e.g. op d'mannst dräi Zeechen an."
 
 msgid "Please enter your payment details"
-msgstr ""
+msgstr "Gitt w.e.g. Är Bezuelungsdaten an."
 
 msgid "Please select"
-msgstr ""
+msgstr "Wielt w.e.g."
 
 msgid "Postal code"
-msgstr ""
+msgstr "Postalcode"
 
 msgid "Previous"
-msgstr ""
+msgstr "Virdrun"
 
 msgid "Price"
 msgstr "Price"
 
 msgid "Price filter"
-msgstr ""
+msgstr "Präisfilter"
 
 msgid "Price range"
-msgstr ""
+msgstr "Preisbäreich"
 
 msgid "Proceed"
-msgstr ""
+msgstr "Weidergoen"
 
 msgid "Processing the payment failed"
-msgstr ""
+msgstr "D'Veraarbechtung vun der Bezuelung ass gescheitert."
 
 msgid "Product"
 msgstr "Product"
 
 msgid "Product actions"
-msgstr ""
+msgstr "Produktiounsaktiounen"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "Produktattributer"
 
 msgid "Product categories"
-msgstr ""
+msgstr "Produktkategorien"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "Produktcharakteristiken"
 
 msgid "Product description"
-msgstr ""
+msgstr "Produktbeschreiwung"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "Produkt-Downloads"
 
 msgid "Product filters"
-msgstr ""
+msgstr "Produktfilter"
 
 msgid "Product image"
-msgstr ""
+msgstr "Produktbild"
 
 msgid "Product information"
-msgstr ""
+msgstr "Produktinformatioun"
 
 msgid "Product price"
-msgstr ""
+msgstr "Produktpräis"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "Produktbewäertungen"
 
 msgid "Product search"
-msgstr ""
+msgstr "Produkt Sich"
 
 msgid "Products you might be also interested in"
-msgstr ""
+msgstr "Produkter, déi Iech och interesséieren kéinten"
 
 msgid "Qty"
-msgstr ""
+msgstr "Quantitéit"
 
 msgid "Quantity"
-msgstr ""
+msgstr "Quantitéit"
 
 msgid "Rating"
-msgstr ""
+msgstr "Bewäertung"
 
 msgid "Reference"
-msgstr ""
+msgstr "Referenz"
 
 msgid "Relevance"
-msgstr ""
+msgstr "Relevanz"
 
 msgid "Remove"
-msgstr ""
+msgstr "Ewechhuelen"
 
 msgid "Reset"
-msgstr ""
+msgstr "Neistellen"
 
 #, php-format
 msgid "Result for \"%1$s\""
-msgstr ""
+msgstr "Resultat fir \"%1$s\""
 
 msgid "Reviews"
-msgstr ""
+msgstr "Bewäertungen"
 
 msgid "SKU or article name"
-msgstr ""
+msgstr "SKU oder Artikelnumm"
 
 msgid "Sale"
-msgstr ""
+msgstr "Verkaf"
 
 msgid "Salutation"
-msgstr ""
+msgstr "Salutatioun"
 
 msgid "Save"
-msgstr ""
+msgstr "Späicheren"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "Späicherkuerf erfollegräich ewechgeholl"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "Späicherte Kuerf"
 
 msgid "Search"
-msgstr ""
+msgstr "Sichen"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
+msgstr[0] "Sichresultat fir <span class=\"searchstring\">\"%1$s\"</span> (%2$d Artikel)"
+msgstr[1] "Sichresultat fir <span class=\"searchstring\">\"%1$s\"</span> (%2$d Artikelen)"
 
 msgid "Select country"
-msgstr ""
+msgstr "Land auswielen"
 
 msgid "Select currency"
-msgstr ""
+msgstr "Währung auswielen"
 
 msgid "Select language"
-msgstr ""
+msgstr "Wielt eng Sprooch"
 
 msgid "Select salutation"
-msgstr ""
+msgstr "Wielt d'Uspréch"
 
 msgid "Select state"
-msgstr ""
+msgstr "Staat auswielen"
 
 msgid "Share"
-msgstr ""
+msgstr "Deelen"
 
 msgid "Shipping"
-msgstr ""
+msgstr "Versand"
 
 msgid "Show"
-msgstr ""
+msgstr "Wise"
 
 msgid "Sort by"
-msgstr ""
+msgstr "No sortéieren"
 
 msgid "Sort by:"
-msgstr ""
+msgstr "No sortéieren:"
 
 msgid "Stars"
-msgstr ""
+msgstr "Stären"
 
 msgid "State"
-msgstr ""
+msgstr "Staat"
 
 msgid "Stock"
 msgstr "Stock"
 
 #, php-format
 msgid "Stock: %1$s, %2$s"
-msgstr ""
+msgstr "Aktioun: %1$s, %2$s"
 
 #, php-format
 msgid "Stock: %1$s, %2$s, back on %3$s"
-msgstr ""
+msgstr "Stock: %1$s, %2$s, zréck op %3$s"
 
 msgid "Street"
-msgstr ""
+msgstr "Strooss"
 
 msgid "Sub-total"
-msgstr ""
+msgstr "Zwëschenzomm"
 
 msgid "Submit"
-msgstr ""
+msgstr "Ofginn"
 
 msgid "Subscription ID"
-msgstr ""
+msgstr "Abonnements-ID"
 
 msgid "Subscription details"
-msgstr ""
+msgstr "Abonnementsdetailer"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "Abonnemente"
 
 msgid "Suggested products"
-msgstr ""
+msgstr "Virgeschloen Produkter"
 
 msgid "Sum"
-msgstr ""
+msgstr "Zomm"
 
 msgid "Supplier information"
-msgstr ""
+msgstr "Informatiounen fir Liwweranten"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "Liwwerantenlëscht"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "Liwweranten"
 
 msgid "Take a look"
-msgstr ""
+msgstr "Kuck emol"
 
 msgid "Telephone"
-msgstr ""
+msgstr "Telefons"
 
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Allgemeng Bedéngungen"
 
 msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
-msgstr ""
+msgstr "Merci fir Är Bestellung an d'Genehmegung vun der Bezuelung. Eng E-Mail mat de Bestelldetailer gëtt Iech bannent de nächsten e puer Minutten zougeschéckt."
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Merci fir Är Bestellung.\n"
+"Mir hu Är Bezuelung kritt an eng E-Mail mat de Bestelldetailer gëtt Iech bannent de nächsten e puer Minutten geschéckt."
 
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "Merci fir Är Bewäertung!"
 
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
 msgstr ""
+"D'Bestellung gouf annuléiert.\n"
+"Wëllt Dir Är Bestellung nei versichen?"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
-msgstr ""
+msgstr "D'Bezuelungsbestätegung fir Är Bestellung steet nach aus. Dir kritt eng E-Mail soubal d'Bezuelung autoriséiert ass."
 
 msgid "Three month"
-msgstr ""
+msgstr "Dräi Méint"
 
 msgid "Time frame"
-msgstr ""
+msgstr "Zäitkader"
 
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Vollbildschierm schalten"
 
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 msgid "Try again"
-msgstr ""
+msgstr "Probéier nach eng Kéier"
 
 msgid "Two weeks"
-msgstr ""
+msgstr "Zwee Wochen"
 
 #, php-format
 msgid "Unable to create an account: %1$s"
-msgstr ""
+msgstr "Kënnt keen Kont erstellen: %1$s"
 
 #, php-format
 msgid "Unable to save address for customer \"%1$s\": %2$s"
-msgstr ""
+msgstr "Kënnt d'Adress vum Client \"%1$s\" net späicheren: %2$s"
 
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
-msgstr ""
+msgstr "Leider gouf d'Bezuelung fir Är Bestellung ofgeleent. Wëllt Dir et nach eng Kéier probéieren?"
 
 msgid "Update"
-msgstr ""
+msgstr "Aktualiséierung"
 
 msgid "Variant"
-msgstr ""
+msgstr "Variant"
 
 msgid "Vat ID"
-msgstr ""
+msgstr "Umsatzsteier-ID"
 
 msgid "Vendor response"
-msgstr ""
+msgstr "Äntwert vum Verkeefer"
 
 msgid "Watch"
-msgstr ""
+msgstr "Kuck"
 
 msgid "Watched products"
-msgstr ""
+msgstr "Ugekuckte Produkter"
 
 msgid "Web site"
-msgstr ""
+msgstr "Websäit"
 
 msgid "What do you think about the product"
-msgstr ""
+msgstr "Wat mengs du iwwer de Produit?"
 
 msgid "Y-m-d"
 msgstr "d.m.Y"
@@ -855,39 +868,39 @@ msgid "YYYY-MM-DD HH:mm"
 msgstr "DD.MM.JJJJ ss:mm"
 
 msgid "You are here:"
-msgstr ""
+msgstr "Dir sidd hei:"
 
 #, php-format
 msgid "You can only save up to %1$s products as favorites"
-msgstr ""
+msgstr "Dir kënnt nëmmen bis %1$s Produkter als Favoritten späicheren."
 
 #, php-format
 msgid "You can only watch up to %1$s products"
-msgstr ""
+msgstr "Dir kënnt nëmmen bis %1$s Produkter kucken."
 
 msgid "You must log in first"
-msgstr ""
+msgstr "Dir musst Iech éischt aschreiwen."
 
 msgid "You will now be forwarded to the next step"
-msgstr ""
+msgstr "Dir gitt elo op de nächste Schrëtt weidergeleet."
 
 msgid "Your choice"
-msgstr ""
+msgstr "Äre Choix"
 
 msgid "Your comment"
-msgstr ""
+msgstr "Äre Kommentar"
 
 msgid "Your rating"
-msgstr ""
+msgstr "Äre Bewäertung"
 
 msgid "Your reference"
-msgstr ""
+msgstr "Är Referenz"
 
 msgid "Your reference number"
-msgstr ""
+msgstr "Är Referenznummer"
 
 msgid "Your review"
-msgstr ""
+msgstr "Är Bewäertung"
 
 msgid "Zoom in/out"
 msgstr "Ran/Raus zoomen"
@@ -924,33 +937,33 @@ msgid "payment"
 msgstr "Bezuelung"
 
 msgid "pin"
-msgstr ""
+msgstr "Spill"
 
 msgid "price:default"
-msgstr ""
+msgstr "präis:standard"
 
 #, php-format
 msgid "process"
-msgstr ""
+msgstr "Prozess"
 
 msgid "stock-high"
-msgstr ""
+msgstr "Aktiounspräis op engem Héichpunkt"
 
 msgid "stock-low"
-msgstr ""
+msgstr "Börse-Niddereg"
 
 msgid "stock-out"
-msgstr ""
+msgstr "Ausverkaf"
 
 msgid "stock-unlimited"
-msgstr ""
+msgstr "Aktie-onbegrenzt"
 
 #, php-format
 msgid "summary"
-msgstr ""
+msgstr "Zesummefaassung"
 
 msgid "watch"
-msgstr ""
+msgstr "kucken"
 
 msgid "▲ Name"
 msgstr "▲ Numm"

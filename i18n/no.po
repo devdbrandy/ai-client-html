@@ -1,33 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: no\n"
+"Language-Team: Norwegian (http://app.transifex.com/aimeos/aimeos-core/language/no/)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:33+0000\n"
+"POT-Creation-Date: 2026-04-25 11:21+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 11:55+0200\n"
-"PO-Revision-Date: 2015-07-09 20:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Norwegian (http://app.transifex.com/aimeos/aimeos-core/language/no/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: no\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, php-format
 msgid "%1$d article"
 msgid_plural "%1$d articles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d artikkel"
+msgstr[1] "%1$d artikler"
 
 #, php-format
 msgid "%1$d review"
 msgid_plural "%1$d reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$d anmeldelse"
+msgstr[1] "%1$d anmeldelser"
 
 #, php-format
 msgid ""
@@ -44,7 +39,22 @@ msgid ""
 "%16$s\n"
 "%17$s\n"
 "%18$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+""
 
 #, php-format
 msgid ""
@@ -62,7 +72,23 @@ msgid ""
 "%17$s\n"
 "%18$s\n"
 "%19$s\n"
+""
 msgstr ""
+"%1$s\n"
+"%2$s %3$s %4$s %5$s\n"
+"%6$s %7$s\n"
+"%8$s\n"
+"%9$s %10$s\n"
+"%11$s\n"
+"%12$s\n"
+"%13$s\n"
+"%14$s\n"
+"%15$s\n"
+"%16$s\n"
+"%17$s\n"
+"%18$s\n"
+"%19$s\n"
+""
 
 #, php-format
 msgid "%1$s %2$s"
@@ -70,778 +96,773 @@ msgstr "%1$s %2$s"
 
 #, php-format
 msgid "%1$s %2$s off"
-msgstr ""
+msgstr "%1$s %2$s i rabatt"
 
 #, php-format
 msgid "%1$s (%4$s%2$s%3$s)"
-msgstr ""
+msgstr "%1$s (%4$s%2$s%3$s)"
 
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s på %2$s"
 
 #, php-format
 msgid "%1$s%3$s + %2$s%3$s"
-msgstr ""
+msgstr "%1$s%3$s + %2$s%3$s"
 
 msgid "(opens in new window)"
-msgstr ""
+msgstr "(åpnes i nytt vindu)"
 
 #, php-format
 msgid "+ %1$s %2$s"
-msgstr ""
+msgstr "+ %1$s %2$s"
 
 #, php-format
 msgid "+ %1$s%% %2$s"
-msgstr ""
+msgstr "+ %1$s%% %2$s"
 
 #, php-format
 msgid "+ %1$s%% VAT"
-msgstr ""
+msgstr "+ %1$s%% mva"
 
 msgid "+1 123 456 7890"
-msgstr ""
+msgstr "+1 123 456 7890"
 
 #, php-format
 msgid "-%1$s%%"
-msgstr ""
+msgstr "-%1$s%%"
 
 msgid "A non-recoverable error occured"
-msgstr ""
+msgstr "Det oppstod en feil som ikke kan rettes opp"
 
 msgid "Add"
-msgstr ""
+msgstr "Legg til"
 
 msgid "Add billing address"
-msgstr ""
+msgstr "Legg til fakturaadresse"
 
 msgid "Add delivery address"
-msgstr ""
+msgstr "Legg til leveringsadresse"
 
 msgid "Add to basket"
-msgstr ""
+msgstr "Legg i handlekurven"
 
 msgid "Additional"
-msgstr ""
+msgstr "I tillegg"
 
 msgid "Additional 2"
-msgstr ""
+msgstr "Ytterligere 2"
 
 #, php-format
 msgid "Address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Adressedelen «%1$s» er ugyldig"
 
 #, php-format
 msgid "Address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Adressedelen «%1$s» mangler"
 
 msgid "Apply"
-msgstr ""
+msgstr "Søk"
 
 msgid "Article"
-msgstr ""
+msgstr "Artikkel"
 
 msgid "Article no."
-msgstr ""
+msgstr "Varenr."
 
 #, php-format
 msgid "At least one billing address part is missing or invalid"
-msgstr ""
+msgstr "Minst én del av fakturaadressen mangler eller er ugyldig"
 
 #, php-format
 msgid "At least one delivery address part is missing or invalid"
-msgstr ""
+msgstr "Minst én del av leveringsadressen mangler eller er ugyldig"
 
 #, php-format
 msgid "At least one payment address part is missing or invalid"
-msgstr ""
+msgstr "Minst én del av betalingsadressen mangler eller er ugyldig"
 
 msgid "At least one product couldn't be added to the basket."
-msgstr ""
+msgstr "Minst ett produkt kunne ikke legges i handlekurven."
 
 msgid "Back"
-msgstr ""
+msgstr "Tilbake"
 
 msgid "Basket"
 msgstr "Basket"
 
 msgid "Basket details"
-msgstr ""
+msgstr "Handlekurvdetaljer"
 
 msgid "Basket name"
-msgstr ""
+msgstr "Navn på handlekurv"
 
 msgid "Basket saved sucessfully"
-msgstr ""
+msgstr "Handlekurven er lagret"
 
 msgid "Billing address"
-msgstr ""
+msgstr "Fakturaadresse"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Faktureringsadressen «%1$s» er ugyldig"
 
 #, php-format
 msgid "Billing address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Faktureringsadressen «%1$s» mangler"
 
 msgid "Birthday"
-msgstr ""
+msgstr "Fødselsdag"
 
 msgid "Breadcrumb navigation"
-msgstr ""
+msgstr "Brødsmule-navigasjon"
 
 msgid "Bulk order"
-msgstr ""
+msgstr "Storbestilling"
 
 msgid "Bundled products"
-msgstr ""
+msgstr "Produkter i pakke"
 
 msgid "Buy now"
-msgstr ""
+msgstr "Kjøp nå"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
 msgid "Change"
-msgstr ""
+msgstr "Endre"
 
 msgid "Change address"
-msgstr ""
+msgstr "Endre adresse"
 
 msgid "Change billing address"
-msgstr ""
+msgstr "Endre fakturaadresse"
 
 msgid "Change coupons"
-msgstr ""
+msgstr "Endre kuponger"
 
 msgid "Change delivery"
-msgstr ""
+msgstr "Endre leveringsmåte"
 
 msgid "Change delivery address"
-msgstr ""
+msgstr "Endre leveringsadresse"
 
 msgid "Change payment"
-msgstr ""
+msgstr "Endre betalingsmåte"
 
 msgid "Change products"
-msgstr ""
+msgstr "Bytt produkter"
 
 msgid "Characteristics"
-msgstr ""
+msgstr "Egenskaper"
 
 msgid "Checkout"
-msgstr ""
+msgstr "Gå til kassen"
 
 msgid "City"
-msgstr ""
+msgstr "By"
 
 #, php-format
 msgid "Class \"%1$s\" not found"
-msgstr ""
+msgstr "Klassen «%1$s» ble ikke funnet"
 
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 msgid "Company"
 msgstr "Company"
 
 msgid "Confirmation"
-msgstr ""
+msgstr "Bekreftelse"
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid "Coupon codes"
-msgstr ""
+msgstr "Rabattkoder"
 
 msgid "Coupons"
-msgstr ""
+msgstr "Kuponger"
 
 msgid "Create a customer account for me"
-msgstr ""
+msgstr "Opprett en kundekonto for meg"
 
 msgid "Created"
-msgstr ""
+msgstr "Opprettet"
 
 msgid "Customer account"
-msgstr ""
+msgstr "Kundekonto"
 
 msgid "Decrease"
-msgstr ""
+msgstr "Redusere"
 
 msgid "Delete"
-msgstr ""
+msgstr "Slett"
 
 msgid "Delete item"
-msgstr ""
+msgstr "Slett element"
 
 msgid "Delivery"
-msgstr ""
+msgstr "Levering"
 
 msgid "Delivery address"
 msgstr "leveringsadresse"
 
 #, php-format
 msgid "Delivery address deleted successfully"
-msgstr ""
+msgstr "Leveringsadressen er slettet"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Leveringsadressen «%1$s» er ugyldig"
 
 #, php-format
 msgid "Delivery address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Leveringsadressen «%1$s» mangler"
 
 msgid "Delivery within"
-msgstr ""
+msgstr "Levering innen"
 
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 msgid "Don't store address"
-msgstr ""
+msgstr "Ikke lagre adresse"
 
 msgid "Downloads"
-msgstr ""
+msgstr "Nedlastinger"
 
 msgid "E-Mail"
-msgstr ""
+msgstr "E-post"
 
 msgid "End date"
-msgstr ""
+msgstr "Sluttdato"
 
 msgid "Favorite products"
-msgstr ""
+msgstr "Favorittprodukter"
 
 msgid "Fax"
-msgstr ""
+msgstr "Faks"
 
 msgid "Fields with an * are mandatory"
-msgstr ""
+msgstr "Felt merket med * er obligatoriske"
 
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 msgid "First"
-msgstr ""
+msgstr "Først"
 
 msgid "First name"
-msgstr ""
+msgstr "Fornavn"
 
 msgid "Found products"
-msgstr ""
+msgstr "Funnet produkter"
 
 msgid "GB999999973"
-msgstr ""
+msgstr "GB999999973"
 
 msgid "Go to page"
-msgstr ""
+msgstr "Gå til siden"
 
 msgid "Grid view"
-msgstr ""
+msgstr "Rutenettvisning"
 
 msgid "HH:mm"
-msgstr ""
+msgstr "HH:mm"
 
 msgid "Highest price"
-msgstr ""
+msgstr "Høyeste pris"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions"
-" (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" "
-"target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy "
-"policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation "
-"policy (opens in new tab)\">cancellation policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions (opens in new tab)\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy (opens in new tab)\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy (opens in new tab)\">cancellation policy</a>"
+msgstr "Jeg godtar <a href=\"%1$s\" target=\"_blank\" title=\"vilkår og betingelser (åpnes i ny fane)\">vilkårene og betingelsene</a>, <a href=\"%2$s\" target=\"_blank\" title=\"personvernpolicy (åpnes i ny fane)\">personvernpolicy</a> og <a href=\"%3$s\" target=\"_blank\" title=\"avbestillingsregler (åpnes i ny fane)\">avbestillingsregler</a>"
 
 #, php-format
-msgid ""
-"I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and "
-"conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a "
-"href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy "
-"policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" "
-"title=\"cancellation policy\" alt=\"cancellation policy\">cancellation "
-"policy</a>"
-msgstr ""
+msgid "I accept the <a href=\"%1$s\" target=\"_blank\" title=\"terms and conditions\" alt=\"terms and conditions\">terms and conditions</a>, <a href=\"%2$s\" target=\"_blank\" title=\"privacy policy\" alt=\"privacy policy\">privacy policy</a> and <a href=\"%3$s\" target=\"_blank\" title=\"cancellation policy\" alt=\"cancellation policy\">cancellation policy</a>"
+msgstr "Jeg godtar <a href=\"%1$s\" target=\"_blank\" title=\"vilkår og betingelser\" alt=\"vilkår og betingelser\">vilkårene og betingelsene</a>, <a href=\"%2$s\" target=\"_blank\" title=\"personvernpolicy\" alt=\"personvernpolicy\">personvernpolicy</a> og <a href=\"%3$s\" target=\"_blank\" title=\"avbestillingsregler\" alt=\"avbestillingsregler\">avbestillingsregler</a>"
 
 msgid "If back in stock"
-msgstr ""
+msgstr "Hvis varen er på lager igjen"
 
 msgid "If price decreases"
-msgstr ""
+msgstr "Hvis prisen går ned"
 
 #, php-format
 msgid "Incl. %1$s%% %2$s"
-msgstr ""
+msgstr "Inkl. %1$s%% %2$s"
 
 #, php-format
 msgid "Incl. %1$s%% VAT"
-msgstr ""
+msgstr "Inkl. %1$s%% mva"
 
 msgid "Included rebates"
-msgstr ""
+msgstr "Inkluderte rabatter"
 
 msgid "Increase"
-msgstr ""
+msgstr "Økning"
 
 msgid "Interval"
-msgstr ""
+msgstr "Intervall"
 
 #, php-format
 msgid "Invalid characters in client name \"%1$s\""
-msgstr ""
+msgstr "Ugyldige tegn i klientnavnet «%1$s»"
 
 #, php-format
 msgid "Invalid class name \"%1$s\""
-msgstr ""
+msgstr "Ugyldig klassenavn «%1$s»"
 
 #, php-format
 msgid "Invalid domain \"%1$s\""
-msgstr ""
+msgstr "Ugyldig domene «%1$s»"
 
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 msgid "Last"
-msgstr ""
+msgstr "Siste"
 
 msgid "Last name"
-msgstr ""
+msgstr "Etternavn"
 
 msgid "Last seen"
-msgstr ""
+msgstr "Sist sett"
 
 msgid "Latest"
-msgstr ""
+msgstr "Siste nytt"
 
 msgid "Less"
-msgstr ""
+msgstr "Mindre"
 
 msgid "List view"
-msgstr ""
+msgstr "Listevisning"
 
 msgid "Lowest price"
-msgstr ""
+msgstr "Laveste pris"
 
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 msgid "Mobile number"
-msgstr ""
+msgstr "Mobilnummer"
 
 msgid "More"
-msgstr ""
+msgstr "Mer"
 
 msgid "More reviews"
-msgstr ""
+msgstr "Flere anmeldelser"
 
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 msgid "New"
-msgstr ""
+msgstr "Nytt"
 
 msgid "New delivery address"
-msgstr ""
+msgstr "Ny leveringsadresse"
 
 msgid "Next"
-msgstr ""
+msgstr "Neste"
 
 msgid "Next order"
-msgstr ""
+msgstr "Neste bestilling"
 
 #, php-format
-msgid ""
-"No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please "
-"try again with a different keyword."
-msgstr ""
+msgid "No articles found for <span class=\"searchstring\">\"%1$s\"</span>. Please try again with a different keyword."
+msgstr "Det ble ikke funnet noen artikler for <span class=\"searchstring\">\"%1$s\"</span>. Prøv igjen med et annet søkeord."
 
 msgid "No order ID available in session"
-msgstr ""
+msgstr "Det finnes ingen ordre-ID i økten"
 
 #, php-format
 msgid "No view available"
-msgstr ""
+msgstr "Ingen visning tilgjengelig"
 
 msgid "One month"
-msgstr ""
+msgstr "En måned"
 
 msgid "One week"
-msgstr ""
+msgstr "En uke"
 
 msgid "Open submenu"
-msgstr ""
+msgstr "Åpne undermenyen"
 
 msgid "Order ID"
-msgstr ""
+msgstr "Ordrenummer"
 
 msgid "Order details"
-msgstr ""
+msgstr "Bestillingsdetaljer"
 
 msgid "Order history"
-msgstr ""
+msgstr "Bestillingshistorikk"
 
 msgid "Order status"
-msgstr ""
+msgstr "Ordrestatus"
 
 msgid "Other customers also bought"
-msgstr ""
+msgstr "Andre kunder kjøpte også"
 
 #, php-format
 msgid "Page %1$d of %2$d"
-msgstr ""
+msgstr "Side %1 av %2"
 
 msgid "Pay now"
-msgstr ""
+msgstr "Betal nå"
 
 msgid "Payment"
-msgstr ""
+msgstr "Betaling"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is invalid"
-msgstr ""
+msgstr "Betalingsadressedelen «%1$s» er ugyldig"
 
 #, php-format
 msgid "Payment address part \"%1$s\" is missing"
-msgstr ""
+msgstr "Betalingsadressen «%1$s» mangler"
 
 msgid "Payment costs"
-msgstr ""
+msgstr "Betalingskostnader"
 
 msgid "Payment status"
-msgstr ""
+msgstr "Betalingsstatus"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Prosentandel"
 
 msgid "Pin product"
-msgstr ""
+msgstr "Legg til produkt"
 
 msgid "Pinned products"
-msgstr ""
+msgstr "Utvalgte produkter"
 
 msgid "Please accept the terms and conditions"
-msgstr ""
+msgstr "Vennligst godta vilkårene"
 
 msgid "Please check your order"
-msgstr ""
+msgstr "Vennligst sjekk bestillingen din"
 
 msgid "Please choose your delivery method"
-msgstr ""
+msgstr "Vennligst velg leveringsmåte"
 
 msgid "Please choose your payment method"
-msgstr ""
+msgstr "Vennligst velg betalingsmåte"
 
 msgid "Please enter at least three characters"
-msgstr ""
+msgstr "Skriv inn minst tre tegn"
 
 msgid "Please enter your payment details"
-msgstr ""
+msgstr "Vennligst oppgi betalingsopplysningene dine"
 
 msgid "Please select"
-msgstr ""
+msgstr "Vennligst velg"
 
 msgid "Postal code"
-msgstr ""
+msgstr "Postnummer"
 
 msgid "Previous"
-msgstr ""
+msgstr "Forrige"
 
 msgid "Price"
 msgstr "Price"
 
 msgid "Price filter"
-msgstr ""
+msgstr "Prisfilter"
 
 msgid "Price range"
-msgstr ""
+msgstr "Prisklasse"
 
 msgid "Proceed"
-msgstr ""
+msgstr "Fortsett"
 
 msgid "Processing the payment failed"
-msgstr ""
+msgstr "Betalingen kunne ikke gjennomføres"
 
 msgid "Product"
 msgstr "Product"
 
 msgid "Product actions"
-msgstr ""
+msgstr "Produkttiltak"
 
 msgid "Product attributes"
-msgstr ""
+msgstr "Produktegenskaper"
 
 msgid "Product categories"
-msgstr ""
+msgstr "Produktkategorier"
 
 msgid "Product characteristics"
-msgstr ""
+msgstr "Produktegenskaper"
 
 msgid "Product description"
-msgstr ""
+msgstr "Produktbeskrivelse"
 
 msgid "Product downloads"
-msgstr ""
+msgstr "Produktnedlastinger"
 
 msgid "Product filters"
-msgstr ""
+msgstr "Produktfiltre"
 
 msgid "Product image"
-msgstr ""
+msgstr "Produktbilde"
 
 msgid "Product information"
-msgstr ""
+msgstr "Produktinformasjon"
 
 msgid "Product price"
-msgstr ""
+msgstr "Produktpris"
 
 msgid "Product reviews"
-msgstr ""
+msgstr "Produktanmeldelser"
 
 msgid "Product search"
-msgstr ""
+msgstr "Produktsøk"
 
 msgid "Products you might be also interested in"
-msgstr ""
+msgstr "Produkter du kanskje også er interessert i"
 
 msgid "Qty"
-msgstr ""
+msgstr "Antall"
 
 msgid "Quantity"
-msgstr ""
+msgstr "Antall"
 
 msgid "Rating"
-msgstr ""
+msgstr "Vurdering"
 
 msgid "Reference"
-msgstr ""
+msgstr "Referanse"
 
 msgid "Relevance"
-msgstr ""
+msgstr "Relevans"
 
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 msgid "Reset"
-msgstr ""
+msgstr "Tilbakestill"
 
 #, php-format
 msgid "Result for \"%1$s\""
-msgstr ""
+msgstr "Resultat for «%1$s»"
 
 msgid "Reviews"
-msgstr ""
+msgstr "Anmeldelser"
 
 msgid "SKU or article name"
-msgstr ""
+msgstr "Varenummer eller varenavn"
 
 msgid "Sale"
-msgstr ""
+msgstr "Salg"
 
 msgid "Salutation"
-msgstr ""
+msgstr "Hilsen"
 
 msgid "Save"
-msgstr ""
+msgstr "Lagre"
 
 msgid "Saved basket removed sucessfully"
-msgstr ""
+msgstr "Handlekurven er lagret"
 
 msgid "Saved baskets"
-msgstr ""
+msgstr "Lagrede handlekurver"
 
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #, php-format
 msgid "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d article)"
-msgid_plural ""
-"Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d "
-"articles)"
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Search result for <span class=\"searchstring\">\"%1$s\"</span> (%2$d articles)"
+msgstr[0] "Søkeresultat for <span class=\"searchstring\">\"%1$s\"</span> (%2$d artikkel)"
+msgstr[1] "Søkeresultat for <span class=\"searchstring\">\"%1$s\"</span> (%2$d artikler)"
 
 msgid "Select country"
-msgstr ""
+msgstr "Velg land"
 
 msgid "Select currency"
-msgstr ""
+msgstr "Velg valuta"
 
 msgid "Select language"
-msgstr ""
+msgstr "Velg språk"
 
 msgid "Select salutation"
-msgstr ""
+msgstr "Velg tiltaleform"
 
 msgid "Select state"
-msgstr ""
+msgstr "Velg delstat"
 
 msgid "Share"
-msgstr ""
+msgstr "Del"
 
 msgid "Shipping"
-msgstr ""
+msgstr "Frakt"
 
 msgid "Show"
-msgstr ""
+msgstr "Vis"
 
 msgid "Sort by"
-msgstr ""
+msgstr "Sorter etter"
 
 msgid "Sort by:"
-msgstr ""
+msgstr "Sorter etter:"
 
 msgid "Stars"
-msgstr ""
+msgstr "Stjerner"
 
 msgid "State"
-msgstr ""
+msgstr "Stat"
 
 msgid "Stock"
 msgstr "Stock"
 
 #, php-format
 msgid "Stock: %1$s, %2$s"
-msgstr ""
+msgstr "Lagerbeholdning: %1$s, %2$s"
 
 #, php-format
 msgid "Stock: %1$s, %2$s, back on %3$s"
-msgstr ""
+msgstr "Lagerbeholdning: %1$s, %2$s, tilbake på lager %3$s"
 
 msgid "Street"
-msgstr ""
+msgstr "Gate"
 
 msgid "Sub-total"
-msgstr ""
+msgstr "Delsum"
 
 msgid "Submit"
-msgstr ""
+msgstr "Send inn"
 
 msgid "Subscription ID"
-msgstr ""
+msgstr "Abonnements-ID"
 
 msgid "Subscription details"
-msgstr ""
+msgstr "Abonnementsdetaljer"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "Abonnementer"
 
 msgid "Suggested products"
-msgstr ""
+msgstr "Anbefalte produkter"
 
 msgid "Sum"
-msgstr ""
+msgstr "Sum"
 
 msgid "Supplier information"
-msgstr ""
+msgstr "Leverandørinformasjon"
 
 msgid "Supplier list"
-msgstr ""
+msgstr "Leverandørliste"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "Leverandører"
 
 msgid "Take a look"
-msgstr ""
+msgstr "Ta en titt"
 
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Vilkår og betingelser"
 
 msgid ""
 "Thank you for your order and authorizing the payment.\n"
 "An e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Takk for bestillingen og for at du har godkjent betalingen.\n"
+"Du vil motta en e-post med bestillingsdetaljene i løpet av de neste minuttene."
 
 msgid ""
 "Thank you for your order.\n"
 "We received your payment and an e-mail with the order details will be sent to you within the next few minutes."
 msgstr ""
+"Takk for bestillingen.\n"
+"Vi har mottatt betalingen din, og du vil motta en e-post med bestillingsdetaljer i løpet av de neste minuttene."
 
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "Takk for anmeldelsen!"
 
 msgid ""
 "The order was canceled.\n"
 "Do you wish to retry your order?"
 msgstr ""
+"Bestillingen ble kansellert.\n"
+"Vil du prøve å bestille på nytt?"
 
 msgid ""
 "The payment confirmation for your order is still pending.\n"
 "You will get an e-mail as soon as the payment is authorized."
 msgstr ""
+"Betalingsbekreftelsen for bestillingen din er fortsatt ikke godkjent.\n"
+"Du vil motta en e-post så snart betalingen er godkjent."
 
 msgid "Three month"
-msgstr ""
+msgstr "Tre måneder"
 
 msgid "Time frame"
-msgstr ""
+msgstr "Tidsramme"
 
 msgid "Title"
-msgstr ""
+msgstr "Tittel"
 
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Veksle til fullskjerm"
 
 msgid "Total"
-msgstr ""
+msgstr "Totalt"
 
 msgid "Try again"
-msgstr ""
+msgstr "Prøv igjen"
 
 msgid "Two weeks"
-msgstr ""
+msgstr "To uker"
 
 #, php-format
 msgid "Unable to create an account: %1$s"
-msgstr ""
+msgstr "Kan ikke opprette en konto: %1$s"
 
 #, php-format
 msgid "Unable to save address for customer \"%1$s\": %2$s"
-msgstr ""
+msgstr "Kan ikke lagre adressen til kunden «%1$s»: %2$s"
 
 msgid ""
 "Unfortunately, the payment for your order was refused.\n"
 "Do you wish to retry?"
 msgstr ""
+"Dessverre ble betalingen for bestillingen din avvist.\n"
+"Vil du prøve på nytt?"
 
 msgid "Update"
-msgstr ""
+msgstr "Oppdatering"
 
 msgid "Variant"
-msgstr ""
+msgstr "Variant"
 
 msgid "Vat ID"
-msgstr ""
+msgstr "MVA-nummer"
 
 msgid "Vendor response"
-msgstr ""
+msgstr "Leverandørens svar"
 
 msgid "Watch"
-msgstr ""
+msgstr "Se"
 
 msgid "Watched products"
-msgstr ""
+msgstr "Produkter du har sett på"
 
 msgid "Web site"
-msgstr ""
+msgstr "Nettsted"
 
 msgid "What do you think about the product"
-msgstr ""
+msgstr "Hva synes du om produktet?"
 
 msgid "Y-m-d"
 msgstr "d.m.Y"
@@ -853,123 +874,123 @@ msgid "YYYY-MM-DD HH:mm"
 msgstr "DD.MM.ÅÅÅÅ tt:mm"
 
 msgid "You are here:"
-msgstr ""
+msgstr "Du er her:"
 
 #, php-format
 msgid "You can only save up to %1$s products as favorites"
-msgstr ""
+msgstr "Du kan bare lagre opptil %1$s produkter som favoritter"
 
 #, php-format
 msgid "You can only watch up to %1$s products"
-msgstr ""
+msgstr "Du kan bare se opptil %1$s produkter"
 
 msgid "You must log in first"
-msgstr ""
+msgstr "Du må logge inn først"
 
 msgid "You will now be forwarded to the next step"
-msgstr ""
+msgstr "Du blir nå sendt videre til neste trinn"
 
 msgid "Your choice"
-msgstr ""
+msgstr "Ditt valg"
 
 msgid "Your comment"
-msgstr ""
+msgstr "Din kommentar"
 
 msgid "Your rating"
-msgstr ""
+msgstr "Din vurdering"
 
 msgid "Your reference"
-msgstr ""
+msgstr "Din referanse"
 
 msgid "Your reference number"
-msgstr ""
+msgstr "Referansenummeret ditt"
 
 msgid "Your review"
-msgstr ""
+msgstr "Din anmeldelse"
 
 msgid "Zoom in/out"
-msgstr ""
+msgstr "Zoom inn/ut"
 
 #, php-format
 msgid "address"
-msgstr ""
+msgstr "adresse"
 
 #, php-format
 msgid "delivery"
-msgstr ""
+msgstr "levering"
 
 msgid "favorite"
-msgstr ""
+msgstr "favoritt"
 
 #, php-format
 msgid "from %1$s"
-msgstr ""
+msgstr "fra %1$s"
 
 msgid "like billing address"
-msgstr ""
+msgstr "f.eks. fakturaadresse"
 
 msgid "new address"
-msgstr ""
+msgstr "ny adresse"
 
 msgid "none"
-msgstr ""
+msgstr "ingen"
 
 msgid "on request"
-msgstr ""
+msgstr "på forespørsel"
 
 #, php-format
 msgid "payment"
 msgstr "payment"
 
 msgid "pin"
-msgstr ""
+msgstr "pinne"
 
 msgid "price:default"
-msgstr ""
+msgstr "pris:standard"
 
 #, php-format
 msgid "process"
-msgstr ""
+msgstr "prosess"
 
 msgid "stock-high"
-msgstr ""
+msgstr "høyt på lager"
 
 msgid "stock-low"
-msgstr ""
+msgstr "lite på lager"
 
 msgid "stock-out"
-msgstr ""
+msgstr "utsolgt"
 
 msgid "stock-unlimited"
-msgstr ""
+msgstr "ubegrenset lager"
 
 #, php-format
 msgid "summary"
-msgstr ""
+msgstr "sammendrag"
 
 msgid "watch"
-msgstr ""
+msgstr "se"
 
 msgid "▲ Name"
-msgstr ""
+msgstr "▲ Navn"
 
 msgid "▲ Price"
-msgstr ""
+msgstr "▲ Pris"
 
 msgid "▶"
-msgstr ""
+msgstr "▶"
 
 msgid "▶▶"
-msgstr ""
+msgstr "▶▶"
 
 msgid "▼ Name"
-msgstr ""
+msgstr "▼ Navn"
 
 msgid "▼ Price"
-msgstr ""
+msgstr "▼ Pris"
 
 msgid "◀"
-msgstr ""
+msgstr "◀"
 
 msgid "◀◀"
-msgstr ""
+msgstr "◀◀"

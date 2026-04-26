@@ -1,101 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# 
-# Translators:
-# Translators:
-# Translators:
-# Translators:
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: th\n"
+"Language-Team: Thai (http://app.transifex.com/aimeos/aimeos-core/language/th/)\n"
+"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
-"Language-Team: Thai (http://app.transifex.com/aimeos/aimeos-core/language/th/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: th\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
-#. Tax name
-msgid "tax"
-msgstr "ภาษี"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "ภาษี"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "ภาษีมูลค่าเพิ่ม"
-
-#. Price type default
-msgid "price:default"
-msgstr "%1$s %2$s"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr "ประเภทสินค้า:ค่าเริ่มต้น"
-
-#. Favorite action
-msgid "favorite"
-msgstr "รายการโปรด"
-
-#. Pin action
-msgid "pin"
-msgstr "หมุด"
-
-#. Watch action
-msgid "watch"
-msgstr "ดู"
-
-#. Product attribute
-msgid "size"
-msgstr "ขนาด"
-
-#. Product attribute
-msgid "length"
-msgstr "ความยาว"
-
-#. Product attribute
-msgid "width"
-msgstr "ความกว้าง"
 
 #. Product attribute
 msgid "color"
 msgstr "สี"
 
-#. Product attribute
-msgid "option"
-msgstr "ตัวเลือก"
+#. Pick-up date
+msgid "date.value"
+msgstr "date.value"
 
-#. Product property package-length
-msgid "package-length"
-msgstr "ความยาวของแพ็กเกจ"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "ความกว้างของแพ็กเกจ"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "ความสูงของแพ็กเกจ"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "น้ำหนักของแพ็กเกจ"
-
-#. Direct debit service provider
-msgid "directdebit.accountowner"
-msgstr "เจ้าของบัญชีหักบัญชีอัตโนมัติ"
+#. Delivery type
+msgid "delivery.type"
+msgstr "ประเภทการจัดส่ง"
 
 #. Direct debit service provider
 msgid "directdebit.accountno"
 msgstr "directdebit.accountno"
+
+#. Direct debit service provider
+msgid "directdebit.accountowner"
+msgstr "เจ้าของบัญชีหักบัญชีอัตโนมัติ"
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -105,13 +40,33 @@ msgstr "directdebit.bankcode"
 msgid "directdebit.bankname"
 msgstr "directdebit.ชื่อธนาคาร"
 
-#. Omnipay service provider
-msgid "payment.firstname"
-msgstr "ชื่อ"
+#. Favorite action
+msgid "favorite"
+msgstr "รายการโปรด"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "นามสกุล"
+#. Product attribute
+msgid "length"
+msgstr "ความยาว"
+
+#. Product attribute
+msgid "option"
+msgstr "ตัวเลือก"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "ความสูงของแพ็กเกจ"
+
+#. Product property package-length
+msgid "package-length"
+msgstr "ความยาวของแพ็กเกจ"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "น้ำหนักของแพ็กเกจ"
+
+#. Product property package-width
+msgid "package-width"
+msgstr "ความกว้างของแพ็กเกจ"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -122,6 +77,10 @@ msgid "payment.cvv"
 msgstr "การชำระเงิน.cvv"
 
 #. Omnipay service provider
+msgid "payment.expiry"
+msgstr "การชำระเงิน.หมดอายุ"
+
+#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "การชำระเงิน.เดือนหมดอายุ"
 
@@ -130,25 +89,57 @@ msgid "payment.expiryyear"
 msgstr "การชำระเงิน.ปีหมดอายุ"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "การชำระเงิน.หมดอายุ"
+msgid "payment.firstname"
+msgstr "ชื่อ"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "date.value"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "นามสกุล"
 
-#. Pick-up time
-msgid "time.hourminute"
-msgstr "เวลา.ชั่วโมงนาที"
+#. Pin action
+msgid "pin"
+msgstr "หมุด"
 
-#. Pick-up location
-msgid "supplier.code"
-msgstr "รหัสผู้จัดจำหน่าย"
+#. Price type default
+msgid "price:default"
+msgstr "%1$s %2$s"
+
+#. Product attribute
+msgid "size"
+msgstr "ขนาด"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr "ประเภทสินค้า:ค่าเริ่มต้น"
 
 #. Pick-up location
 msgid "supplier.address"
 msgstr "ที่อยู่ผู้จัดจำหน่าย"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "ประเภทการจัดส่ง"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "รหัสผู้จัดจำหน่าย"
+
+#. Tax name
+msgid "tax"
+msgstr "ภาษี"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "ภาษีมูลค่าเพิ่ม"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "ภาษี"
+
+#. Pick-up time
+msgid "time.hourminute"
+msgstr "เวลา.ชั่วโมงนาที"
+
+#. Watch action
+msgid "watch"
+msgstr "ดู"
+
+#. Product attribute
+msgid "width"
+msgstr "ความกว้าง"
