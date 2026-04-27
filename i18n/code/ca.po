@@ -1,36 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# 
+# Translators:
+# Translators:
+# Translators:
+# Translators:
 msgid ""
 msgstr ""
-"Content-Transfer-Encoding: 8bit\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: ca\n"
-"Language-Team: Catalan (http://app.transifex.com/aimeos/aimeos-core/language/ca/)\n"
-"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
-"MIME-Version: 1.0\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
+"Language-Team: Catalan (http://app.transifex.com/aimeos/aimeos-core/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tax name
+msgid "tax"
+msgstr "impost"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "impost"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "impost sobre els béns i serveis"
+
+#. Price type default
+msgid "price:default"
+msgstr "preu:per defecte"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
+
+#. Favorite action
+msgid "favorite"
+msgstr "favorit"
+
+#. Pin action
+msgid "pin"
+msgstr "agulla"
+
+#. Watch action
+msgid "watch"
+msgstr "mirar"
+
+#. Product attribute
+msgid "size"
+msgstr "mida"
+
+#. Product attribute
+msgid "length"
+msgstr "Llargada"
+
+#. Product attribute
+msgid "width"
+msgstr "amplada"
 
 #. Product attribute
 msgid "color"
 msgstr "color"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "valor de data"
+#. Product attribute
+msgid "option"
+msgstr "Opció"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "tipus de lliurament"
+#. Product property package-length
+msgid "package-length"
+msgstr "llargada-del-paquet"
 
-#. Direct debit service provider
-msgid "directdebit.accountno"
-msgstr "númerode compte.domiciliamentdirecta"
+#. Product property package-width
+msgid "package-width"
+msgstr "amplada del paquet"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "alçada del paquet"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "pes-del-paquet"
 
 #. Direct debit service provider
 msgid "directdebit.accountowner"
 msgstr "titular_del_compte_de_domiciliació_directa"
+
+#. Direct debit service provider
+msgid "directdebit.accountno"
+msgstr "númerode compte.domiciliamentdirecta"
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -40,33 +105,13 @@ msgstr "codi de banc domiciliació directa"
 msgid "directdebit.bankname"
 msgstr "debitdirect.nomdabanc"
 
-#. Favorite action
-msgid "favorite"
-msgstr "favorit"
+#. Omnipay service provider
+msgid "payment.firstname"
+msgstr "Nom"
 
-#. Product attribute
-msgid "length"
-msgstr "Llargada"
-
-#. Product attribute
-msgid "option"
-msgstr "Opció"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "alçada del paquet"
-
-#. Product property package-length
-msgid "package-length"
-msgstr "llargada-del-paquet"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "pes-del-paquet"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "amplada del paquet"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "Cognom"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -77,10 +122,6 @@ msgid "payment.cvv"
 msgstr "pagament.cvv"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "pagament.caducitat"
-
-#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "mesd'expiraciódelpagament"
 
@@ -89,57 +130,25 @@ msgid "payment.expiryyear"
 msgstr "any_d'expiració_pagament"
 
 #. Omnipay service provider
-msgid "payment.firstname"
-msgstr "Nom"
+msgid "payment.expiry"
+msgstr "pagament.caducitat"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "Cognom"
-
-#. Pin action
-msgid "pin"
-msgstr "agulla"
-
-#. Price type default
-msgid "price:default"
-msgstr "preu:per defecte"
-
-#. Product attribute
-msgid "size"
-msgstr "mida"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
-
-#. Pick-up location
-msgid "supplier.address"
-msgstr "adreça.proveïdor"
-
-#. Pick-up location
-msgid "supplier.code"
-msgstr "codi.proveïdor"
-
-#. Tax name
-msgid "tax"
-msgstr "impost"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "impost sobre els béns i serveis"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "impost"
+#. Pick-up date
+msgid "date.value"
+msgstr "valor de data"
 
 #. Pick-up time
 msgid "time.hourminute"
 msgstr "temps.hora.minut"
 
-#. Watch action
-msgid "watch"
-msgstr "mirar"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "codi.proveïdor"
 
-#. Product attribute
-msgid "width"
-msgstr "amplada"
+#. Pick-up location
+msgid "supplier.address"
+msgstr "adreça.proveïdor"
+
+#. Delivery type
+msgid "delivery.type"
+msgstr "tipus de lliurament"

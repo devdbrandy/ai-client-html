@@ -1,36 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# 
+# Translators:
+# Translators:
+# Translators:
+# Translators:
 msgid ""
 msgstr ""
-"Content-Transfer-Encoding: 8bit\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: tk\n"
-"Language-Team: Turkmen (http://app.transifex.com/aimeos/aimeos-core/language/tk/)\n"
-"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
-"MIME-Version: 1.0\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"Last-Translator: Aimeos <aimeos@aimeos.org>\n"
+"Language-Team: Turkmen (http://app.transifex.com/aimeos/aimeos-core/language/tk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tax name
+msgid "tax"
+msgstr "salgyt"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "salgytpst"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "salgytgst"
+
+#. Price type default
+msgid "price:default"
+msgstr "%1$s%2$s"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
+
+#. Favorite action
+msgid "favorite"
+msgstr "iň halanýan"
+
+#. Pin action
+msgid "pin"
+msgstr "bellemek"
+
+#. Watch action
+msgid "watch"
+msgstr "gözegçilik etmek"
+
+#. Product attribute
+msgid "size"
+msgstr "ölçeg"
+
+#. Product attribute
+msgid "length"
+msgstr "Uzynlyk"
+
+#. Product attribute
+msgid "width"
+msgstr "eni"
 
 #. Product attribute
 msgid "color"
 msgstr "reňk"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "seneniniň gymmaty"
+#. Product attribute
+msgid "option"
+msgstr "saýlaw"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "Eltip beriş görnüşi"
+#. Product property package-length
+msgid "package-length"
+msgstr "Paket uzynlygy"
 
-#. Direct debit service provider
-msgid "directdebit.accountno"
-msgstr "direktdebiti hasap nomeri"
+#. Product property package-width
+msgid "package-width"
+msgstr "Paketiniň ini"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "Paketiň beýikligi"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "Paketiň agramy"
 
 #. Direct debit service provider
 msgid "directdebit.accountowner"
 msgstr "direktdebitiň hasap eýesi"
+
+#. Direct debit service provider
+msgid "directdebit.accountno"
+msgstr "direktdebiti hasap nomeri"
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -40,33 +105,13 @@ msgstr "direktdebiti bank kody"
 msgid "directdebit.bankname"
 msgstr "direktdebit.bankadagyňady"
 
-#. Favorite action
-msgid "favorite"
-msgstr "iň halanýan"
+#. Omnipay service provider
+msgid "payment.firstname"
+msgstr "Ady"
 
-#. Product attribute
-msgid "length"
-msgstr "Uzynlyk"
-
-#. Product attribute
-msgid "option"
-msgstr "saýlaw"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "Paketiň beýikligi"
-
-#. Product property package-length
-msgid "package-length"
-msgstr "Paket uzynlygy"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "Paketiň agramy"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "Paketiniň ini"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "Familýasy"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -77,10 +122,6 @@ msgid "payment.cvv"
 msgstr "töleg.cvv"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "tölegiň möhleti"
-
-#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "töleg.möhlet-aý"
 
@@ -89,57 +130,25 @@ msgid "payment.expiryyear"
 msgstr "tölegiň möhleti gutarýan ýyly"
 
 #. Omnipay service provider
-msgid "payment.firstname"
-msgstr "Ady"
+msgid "payment.expiry"
+msgstr "tölegiň möhleti"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "Familýasy"
-
-#. Pin action
-msgid "pin"
-msgstr "bellemek"
-
-#. Price type default
-msgid "price:default"
-msgstr "%1$s%2$s"
-
-#. Product attribute
-msgid "size"
-msgstr "ölçeg"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
-
-#. Pick-up location
-msgid "supplier.address"
-msgstr "Tämin edijiň salgysy"
-
-#. Pick-up location
-msgid "supplier.code"
-msgstr "Täminleýji kody"
-
-#. Tax name
-msgid "tax"
-msgstr "salgyt"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "salgytgst"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "salgytpst"
+#. Pick-up date
+msgid "date.value"
+msgstr "seneniniň gymmaty"
 
 #. Pick-up time
 msgid "time.hourminute"
 msgstr "waqt.saatdeqiqa"
 
-#. Watch action
-msgid "watch"
-msgstr "gözegçilik etmek"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "Täminleýji kody"
 
-#. Product attribute
-msgid "width"
-msgstr "eni"
+#. Pick-up location
+msgid "supplier.address"
+msgstr "Tämin edijiň salgysy"
+
+#. Delivery type
+msgid "delivery.type"
+msgstr "Eltip beriş görnüşi"

@@ -1,36 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# 
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Aimeos, 2025
+# Aimeos, 2025
+# Tobias Madsen <tubbe.m@gmail.com>, 2020
 msgid ""
 msgstr ""
-"Content-Transfer-Encoding: 8bit\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: da\n"
-"Language-Team: Danish (http://app.transifex.com/aimeos/aimeos-core/language/da/)\n"
-"Last-Translator: Tobias Madsen <tubbe.m@gmail.com>, 2020\n"
-"MIME-Version: 1.0\n"
-"PO-Revision-Date: 2015-07-09 20:34+0000\n"
-"POT-Creation-Date: 2013-04-09 09:14+0200\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: aimeos-core\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-09 09:14+0200\n"
+"PO-Revision-Date: 2015-07-09 20:34+0000\n"
+"Last-Translator: Tobias Madsen <tubbe.m@gmail.com>, 2020\n"
+"Language-Team: Danish (http://app.transifex.com/aimeos/aimeos-core/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tax name
+msgid "tax"
+msgstr "moms"
+
+#. PST tax name
+msgid "taxpst"
+msgstr "MOMS PST"
+
+#. GST tax name
+msgid "taxgst"
+msgstr "MOMS GST"
+
+#. Price type default
+msgid "price:default"
+msgstr "%1$s %2$s"
+
+#. Stock type
+msgid "stocktype:default"
+msgstr " "
+
+#. Favorite action
+msgid "favorite"
+msgstr "Favorit"
+
+#. Pin action
+msgid "pin"
+msgstr "nål"
+
+#. Watch action
+msgid "watch"
+msgstr "se på"
+
+#. Product attribute
+msgid "size"
+msgstr "Størrelse"
+
+#. Product attribute
+msgid "length"
+msgstr "Længde"
+
+#. Product attribute
+msgid "width"
+msgstr "Bredde"
 
 #. Product attribute
 msgid "color"
 msgstr "Farve"
 
-#. Pick-up date
-msgid "date.value"
-msgstr "Dato for afhentning"
+#. Product attribute
+msgid "option"
+msgstr "Mulighed"
 
-#. Delivery type
-msgid "delivery.type"
-msgstr "Leveringstype"
+#. Product property package-length
+msgid "package-length"
+msgstr "Pakkelængde"
 
-#. Direct debit service provider
-msgid "directdebit.accountno"
-msgstr "Kontonr."
+#. Product property package-width
+msgid "package-width"
+msgstr "Pakkebredde"
+
+#. Product property package-height
+msgid "package-height"
+msgstr "Pakkehøjde"
+
+#. Product property package-weight
+msgid "package-weight"
+msgstr "Pakkevægt"
 
 #. Direct debit service provider
 msgid "directdebit.accountowner"
 msgstr "Kontoejer"
+
+#. Direct debit service provider
+msgid "directdebit.accountno"
+msgstr "Kontonr."
 
 #. Direct debit service provider
 msgid "directdebit.bankcode"
@@ -40,33 +108,13 @@ msgstr "Bankkode"
 msgid "directdebit.bankname"
 msgstr "Banknavn"
 
-#. Favorite action
-msgid "favorite"
-msgstr "Favorit"
+#. Omnipay service provider
+msgid "payment.firstname"
+msgstr "Fornavn"
 
-#. Product attribute
-msgid "length"
-msgstr "Længde"
-
-#. Product attribute
-msgid "option"
-msgstr "Mulighed"
-
-#. Product property package-height
-msgid "package-height"
-msgstr "Pakkehøjde"
-
-#. Product property package-length
-msgid "package-length"
-msgstr "Pakkelængde"
-
-#. Product property package-weight
-msgid "package-weight"
-msgstr "Pakkevægt"
-
-#. Product property package-width
-msgid "package-width"
-msgstr "Pakkebredde"
+#. Omnipay service provider
+msgid "payment.lastname"
+msgstr "Efternavn"
 
 #. Omnipay service provider
 msgid "payment.cardno"
@@ -77,10 +125,6 @@ msgid "payment.cvv"
 msgstr "Bekræftelsesnummer"
 
 #. Omnipay service provider
-msgid "payment.expiry"
-msgstr "Udløb (MMÅÅ)"
-
-#. Omnipay service provider
 msgid "payment.expirymonth"
 msgstr "Udløbsmåned"
 
@@ -89,57 +133,25 @@ msgid "payment.expiryyear"
 msgstr "Udløbsår"
 
 #. Omnipay service provider
-msgid "payment.firstname"
-msgstr "Fornavn"
+msgid "payment.expiry"
+msgstr "Udløb (MMÅÅ)"
 
-#. Omnipay service provider
-msgid "payment.lastname"
-msgstr "Efternavn"
-
-#. Pin action
-msgid "pin"
-msgstr "nål"
-
-#. Price type default
-msgid "price:default"
-msgstr "%1$s %2$s"
-
-#. Product attribute
-msgid "size"
-msgstr "Størrelse"
-
-#. Stock type
-msgid "stocktype:default"
-msgstr " "
-
-#. Pick-up location
-msgid "supplier.address"
-msgstr "Adresse for afhentning"
-
-#. Pick-up location
-msgid "supplier.code"
-msgstr "Afhentningssted"
-
-#. Tax name
-msgid "tax"
-msgstr "moms"
-
-#. GST tax name
-msgid "taxgst"
-msgstr "MOMS GST"
-
-#. PST tax name
-msgid "taxpst"
-msgstr "MOMS PST"
+#. Pick-up date
+msgid "date.value"
+msgstr "Dato for afhentning"
 
 #. Pick-up time
 msgid "time.hourminute"
 msgstr "Tidspunkt for afhentning"
 
-#. Watch action
-msgid "watch"
-msgstr "se på"
+#. Pick-up location
+msgid "supplier.code"
+msgstr "Afhentningssted"
 
-#. Product attribute
-msgid "width"
-msgstr "Bredde"
+#. Pick-up location
+msgid "supplier.address"
+msgstr "Adresse for afhentning"
+
+#. Delivery type
+msgid "delivery.type"
+msgstr "Leveringstype"
