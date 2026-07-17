@@ -101,6 +101,7 @@ $enc = $this->encoder();
 			<div class="watch-items">
 				<?php foreach( $this->get( 'watchItems', map() )->reverse() as $listItem ) : ?>
 					<?php if( ( $productItem = $listItem->getRefItem() ) !== null ) : ?>
+						<?php $watchId = $listItem->getId() ?>
 
 						<div class="product watch-item" data-prodid="<?= $enc->attr( $productItem->getId() ) ?>">
 							<?php $params = ['wat_action' => 'delete', 'wat_id' => $listItem->getRefId()] + $this->get( 'watchParams', [] ) ?>
@@ -148,8 +149,8 @@ $enc = $this->encoder();
 
 									<?php $timeframe = ( isset( $config['timeframe'] ) ? (int) $config['timeframe'] : 7 ) ?>
 									<li class="form-item timeframe">
-										<label for="watch-timeframe"><?= $enc->html( $this->translate( 'client', 'Time frame' ), $enc::TRUST ) ?></label><!--
-										--><select id="watch-timeframe" name="<?= $enc->attr( $this->formparam( array( 'wat_timeframe' ) ) ) ?>">
+										<label for="watch-timeframe-<?= $enc->attr( $watchId ) ?>"><?= $enc->html( $this->translate( 'client', 'Time frame' ), $enc::TRUST ) ?></label><!--
+										--><select id="watch-timeframe-<?= $enc->attr( $watchId ) ?>" name="<?= $enc->attr( $this->formparam( array( 'wat_timeframe' ) ) ) ?>">
 											<option value="7" <?= ( $timeframe == 7 ? 'selected="selected"' : '' ) ?>>
 												<?= $enc->html( $this->translate( 'client', 'One week' ) ) ?>
 											</option>
@@ -167,10 +168,10 @@ $enc = $this->encoder();
 
 									<?php $price = ( isset( $config['price'] ) ? (int) $config['price'] : 0 ) ?>
 									<li class="form-item price">
-										<label for="watch-price"><?= $enc->html( $this->translate( 'client', 'If price decreases' ), $enc::TRUST ) ?></label><!--
+										<label for="watch-price-<?= $enc->attr( $watchId ) ?>"><?= $enc->html( $this->translate( 'client', 'If price decreases' ), $enc::TRUST ) ?></label><!--
 										--><input type="checkbox"
 											name="<?= $enc->attr( $this->formparam( array( 'wat_price' ) ) ) ?>"
-											id="watch-price"
+											id="watch-price-<?= $enc->attr( $watchId ) ?>"
 											value="1"
 											<?= ( $price ? 'checked="checked"' : '' ) ?>
 										>
@@ -182,13 +183,13 @@ $enc = $this->encoder();
 
 									<?php $stock = ( isset( $config['stock'] ) ? (int) $config['stock'] : 0 ) ?>
 									<li class="form-item stock">
-										<label for="watch-stock"><?= $enc->html( $this->translate( 'client', 'If back in stock' ), $enc::TRUST ) ?></label><!--
-											--><input type="checkbox"
-												name="<?= $enc->attr( $this->formparam( array( 'wat_stock' ) ) ) ?>"
-												id="watch-stock"
-												value="1"
-												<?= ( $stock ? 'checked="checked"' : '' ) ?>
-											>
+										<label for="watch-stock-<?= $enc->attr( $watchId ) ?>"><?= $enc->html( $this->translate( 'client', 'If back in stock' ), $enc::TRUST ) ?></label><!--
+										--><input type="checkbox"
+											name="<?= $enc->attr( $this->formparam( array( 'wat_stock' ) ) ) ?>"
+											id="watch-stock-<?= $enc->attr( $watchId ) ?>"
+											value="1"
+											<?= ( $stock ? 'checked="checked"' : '' ) ?>
+										>
 									</li>
 								</ul>
 

@@ -55,6 +55,16 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 
 		$this->assertStringContainsString( '<div class="section aimeos account-watch"', $output );
 		$this->assertStringContainsString( 'Cafe Noire Expresso', $output );
+
+		foreach( ['timeframe', 'price', 'stock'] as $type )
+		{
+			preg_match_all( '/(?:for|id)="(watch-' . $type . '-[^"]+)"/', $output, $matches );
+			$this->assertNotEmpty( $matches[1] );
+
+			foreach( array_count_values( $matches[1] ) as $count ) {
+				$this->assertSame( 2, $count );
+			}
+		}
 	}
 
 

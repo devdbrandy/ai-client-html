@@ -58,9 +58,13 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		$this->context->setUser( $customer );
 
 		$output = $this->object->body();
+		$addressCount = count( $customer->getAddressItems() );
 
 		$this->assertStringContainsString( '<div class="account-profile-address', $output );
 		$this->assertMatchesRegularExpression( '#id="address-payment-salutation-#', $output );
+		$this->assertSame( $addressCount + 2, substr_count( $output, 'class="address-save ' ) );
+		$this->assertSame( $addressCount, substr_count( $output, 'class="address-delete ' ) );
+		$this->assertSame( $addressCount * 2 + 2, substr_count( $output, '<form ' ) );
 
 		foreach( $customer->getAddressItems() as $idx => $item ) {
 			$this->assertMatchesRegularExpression( '#id="address-delivery-salutation-' . $idx . '"#', $output );
@@ -72,5 +76,55 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 	{
 		$this->object->init();
 		$this->expectNotToPerformAssertions();
+	}
+
+
+	public function testInitDeliveryOnly()
+	{
+		$customer = \Aimeos\MShop::create( $this->context, 'customer' )->find( 'test@example.com', ['customer/address'] );
+		$addresses = $customer->getAddressItems();
+		$pos = $addresses->firstKey();
+		$this->context->setUser( $customer );
+
+		$params = ['address' => ['save' => 1, 'delivery' => [$pos => $addresses->get( $pos )->toArray()]]];
+		$helper = new \Aimeos\Base\View\Helper\Param\Standard( $this->view, $params );
+		$this->view->addHelper( 'param', $helper );
+		$this->object->setView( $this->view );
+
+		$stub = $this->getMockBuilder( \Aimeos\Controller\Frontend\Customer\Standard::class )
+			->setConstructorArgs( [$this->context] )
+			->onlyMethods( ['add', 'addAddressItem', 'store'] )
+			->getMock();
+
+		$stub->expects( $this->never() )->method( 'add' );
+		$stub->expects( $this->once() )->method( 'addAddressItem' )->willReturn( $stub );
+		$stub->expects( $this->once() )->method( 'store' )->willReturn( $stub );
+
+		\Aimeos\Controller\Frontend::inject( \Aimeos\Controller\Frontend\Customer\Standard::class, $stub );
+		$this->object->init();
+	}
+
+
+	public function testInitDeleteOnly()
+	{
+		$customer = \Aimeos\MShop::create( $this->context, 'customer' )->find( 'test@example.com', ['customer/address'] );
+		$pos = $customer->getAddressItems()->firstKey();
+		$this->context->setUser( $customer );
+
+		$helper = new \Aimeos\Base\View\Helper\Param\Standard( $this->view, ['address' => ['delete' => $pos]] );
+		$this->view->addHelper( 'param', $helper );
+		$this->object->setView( $this->view );
+
+		$stub = $this->getMockBuilder( \Aimeos\Controller\Frontend\Customer\Standard::class )
+			->setConstructorArgs( [$this->context] )
+			->onlyMethods( ['add', 'deleteAddressItem', 'store'] )
+			->getMock();
+
+		$stub->expects( $this->never() )->method( 'add' );
+		$stub->expects( $this->once() )->method( 'deleteAddressItem' )->willReturn( $stub );
+		$stub->expects( $this->once() )->method( 'store' )->willReturn( $stub );
+
+		\Aimeos\Controller\Frontend::inject( \Aimeos\Controller\Frontend\Customer\Standard::class, $stub );
+		$this->object->init();
 	}
 }

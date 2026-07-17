@@ -201,7 +201,10 @@ class Standard
 
 		$cntl = \Aimeos\Controller\Frontend::create( $this->context(), 'customer' );
 		$addrItems = $cntl->uses( ['customer/address'] )->get()->getAddressItems();
-		$cntl->add( $view->param( 'address/payment', [] ) );
+
+		if( !empty( $data ) ) {
+			$cntl->add( $data );
+		}
 
 		if( $pos = $view->param( 'address/delete' ) )
 		{
