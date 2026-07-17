@@ -62,8 +62,11 @@ class StandardTest extends \PHPUnit\Framework\TestCase
 		$this->assertStringContainsString( '<div class="section aimeos basket-standard', $output );
 		$this->assertStringContainsString( '<div class="common-summary-detail', $output );
 		$this->assertStringContainsString( '<div class="basket-standard-coupon', $output );
-		$this->assertEquals( 2, substr_count( $output, '<form ' ) );
-		$this->assertMatchesRegularExpression( '#<form class="input-group basket-save".*<input class="form-control basket-name"[^>]+required="required".*</form>.*<form method="POST"#smU', $output );
+		$this->assertEquals( 3, substr_count( $output, '<form ' ) );
+		$this->assertMatchesRegularExpression( '#<form class="input-group basket-save".*<input class="form-control basket-name"[^>]+required="required".*</form>#smU', $output );
+		$this->assertMatchesRegularExpression( '#<form id="basket-standard-update".*<div class="common-summary-detail.*</form>\s*<div class="basket-standard-coupon#smU', $output );
+		$this->assertMatchesRegularExpression( '#<form class="input-group coupon-new".*name="b_coupon".*>.*Apply.*</form>#smU', $output );
+		$this->assertStringContainsString( 'class="btn btn-default btn-lg btn-update" type="submit" form="basket-standard-update"', $output );
 	}
 
 

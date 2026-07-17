@@ -33,7 +33,7 @@ $enc = $this->encoder();
 				</div>
 			</div>
 
-			<form method="POST" action="<?= $enc->attr( $this->link( 'client/html/basket/standard/url' ) ) ?>">
+			<form id="basket-standard-update" method="POST" action="<?= $enc->attr( $this->link( 'client/html/basket/standard/url' ) ) ?>">
 				<?= $this->csrf()->formfield() ?>
 
 				<div class="common-summary-detail">
@@ -63,64 +63,66 @@ $enc = $this->encoder();
 						) ?>
 					</div>
 				</div>
-
-				<div class="basket-standard-coupon row">
-					<div class="col-12 col-md-6 header">
-						<h2><?= $enc->html( $this->translate( 'client', 'Coupon codes' ) ) ?></h2>
-					</div>
-
-					<div class="col-12 col-md-6 content">
-
-						<div class="input-group coupon-new">
-							<input class="form-control coupon-code" type="text" maxlength="255"
-								placeholder="<?= $enc->attr( $this->translate( 'client', 'Coupon codes' ) ) ?>"
-								name="<?= $enc->attr( $this->formparam( 'b_coupon' ) ) ?>"
-							><!--
-							--><button class="btn btn-primary" type="submit"><?= $enc->html( $this->translate( 'client', 'Apply' ) ) ?></button>
-						</div>
-
-						<?php if( !( $coupons = $this->standardBasket->getCoupons() )->isEmpty() ) : ?>
-							<div class="coupon-detail row">
-								<div class="col-6">
-									<div class="name"><?= $enc->html( $this->translate( 'client', 'Coupons' ) ) ?>:</div>
-								</div>
-								<div class="col-6">
-									<?php foreach( $coupons as $code => $products ) : $params = array( 'b_action' => 'coupon-delete' ) ?>
-										<div class="coupon-codes">
-											<span class="coupon-code"><?= $enc->html( $code ) ?></span>
-											<button class="minibutton delete" type="submit"
-												name="<?= $enc->attr( $this->formparam( 'b_coupon' ) ) ?>"
-												value="<?= $enc->attr( $code ) ?>"
-												formaction="<?= $enc->attr( $this->link( 'client/html/basket/standard/url', $params ) ) ?>"></button>
-										</div>
-									<?php endforeach ?>
-								</div>
-							</div>
-						<?php endif ?>
-					</div>
-				</div>
-
-				<div class="button-group">
-
-					<?php if( isset( $this->standardBackUrl ) ) : ?>
-						<a class="btn btn-default btn-lg btn-back" href="<?= $enc->attr( $this->standardBackUrl ) ?>">
-							<?= $enc->html( $this->translate( 'client', 'Back' ), $enc::TRUST ) ?>
-						</a>
-					<?php endif ?>
-
-					<button class="btn btn-default btn-lg btn-update" type="submit">
-						<?= $enc->html( $this->translate( 'client', 'Update' ), $enc::TRUST ) ?>
-					</button>
-
-					<?php if( $this->get( 'standardCheckout', false ) === true ) : ?>
-						<a class="btn btn-primary btn-lg btn-action"
-							href="<?= $enc->attr( $this->link( 'client/html/checkout/standard/url' ) ) ?>">
-							<?= $enc->html( $this->translate( 'client', 'Checkout' ), $enc::TRUST ) ?>
-						</a>
-					<?php endif ?>
-
-				</div>
 			</form>
+
+			<div class="basket-standard-coupon row">
+				<div class="col-12 col-md-6 header">
+					<h2><?= $enc->html( $this->translate( 'client', 'Coupon codes' ) ) ?></h2>
+				</div>
+
+				<div class="col-12 col-md-6 content">
+
+					<form class="input-group coupon-new" method="POST" action="<?= $enc->attr( $this->link( 'client/html/basket/standard/url' ) ) ?>">
+						<?= $this->csrf()->formfield() ?>
+						<input class="form-control coupon-code" type="text" maxlength="255"
+							placeholder="<?= $enc->attr( $this->translate( 'client', 'Coupon codes' ) ) ?>"
+							name="<?= $enc->attr( $this->formparam( 'b_coupon' ) ) ?>"
+						><!--
+						--><button class="btn btn-primary" type="submit"><?= $enc->html( $this->translate( 'client', 'Apply' ) ) ?></button>
+					</form>
+
+					<?php if( !( $coupons = $this->standardBasket->getCoupons() )->isEmpty() ) : ?>
+						<div class="coupon-detail row">
+							<div class="col-6">
+								<div class="name"><?= $enc->html( $this->translate( 'client', 'Coupons' ) ) ?>:</div>
+							</div>
+							<div class="col-6">
+								<?php foreach( $coupons as $code => $products ) : $params = array( 'b_action' => 'coupon-delete' ) ?>
+									<div class="coupon-codes">
+										<span class="coupon-code"><?= $enc->html( $code ) ?></span>
+										<button class="minibutton delete" type="submit"
+											name="<?= $enc->attr( $this->formparam( 'b_coupon' ) ) ?>"
+											value="<?= $enc->attr( $code ) ?>"
+											form="basket-standard-update"
+											formaction="<?= $enc->attr( $this->link( 'client/html/basket/standard/url', $params ) ) ?>"></button>
+									</div>
+								<?php endforeach ?>
+							</div>
+						</div>
+					<?php endif ?>
+				</div>
+			</div>
+
+			<div class="button-group">
+
+				<?php if( isset( $this->standardBackUrl ) ) : ?>
+					<a class="btn btn-default btn-lg btn-back" href="<?= $enc->attr( $this->standardBackUrl ) ?>">
+						<?= $enc->html( $this->translate( 'client', 'Back' ), $enc::TRUST ) ?>
+					</a>
+				<?php endif ?>
+
+				<button class="btn btn-default btn-lg btn-update" type="submit" form="basket-standard-update">
+					<?= $enc->html( $this->translate( 'client', 'Update' ), $enc::TRUST ) ?>
+				</button>
+
+				<?php if( $this->get( 'standardCheckout', false ) === true ) : ?>
+					<a class="btn btn-primary btn-lg btn-action"
+						href="<?= $enc->attr( $this->link( 'client/html/checkout/standard/url' ) ) ?>">
+						<?= $enc->html( $this->translate( 'client', 'Checkout' ), $enc::TRUST ) ?>
+					</a>
+				<?php endif ?>
+
+			</div>
 		</div>
 	</div>
 
