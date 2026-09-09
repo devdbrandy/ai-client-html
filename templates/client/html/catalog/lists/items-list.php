@@ -37,7 +37,7 @@ $detailFilter = array_flip( $this->config( 'client/html/catalog/detail/url/filte
 
 				<?= $this->partial( $this->config( 'client/html/common/partials/badges', 'common/partials/badges' ) ) ?>
 
-				<a class="media-list" href="<?= $url ?>" title="<?= $enc->attr( $productItem->getName(), $enc::TRUST ) ?>">
+				<a class="media-list" href="<?= $enc->attr( $url ) ?>" title="<?= $enc->attr( $productItem->getName() ) ?>">
 					<?php if( ( $mediaItem = $productItem->getRefItems( 'media', 'default', 'default' )->first() ) !== null ) : ?>
 						<noscript>
 							<div class="media-item" itemscope itemtype="http://schema.org/ImageObject">
@@ -74,13 +74,13 @@ $detailFilter = array_flip( $this->config( 'client/html/catalog/detail/url/filte
 				</div>
 
 
-				<a class="text-list" href="<?= $url ?>">
+				<a class="text-list" href="<?= $enc->attr( $url ) ?>">
 					<div class="code" itemprop="sku"><?= $enc->html( $productItem->getCode() ) ?></div>
 					<?php if( !( $suppliers = $productItem->getRefItems( 'supplier' ) )->isEmpty() ) : ?>
-						<div class="supplier"><?= $enc->html( $suppliers->getName()->first(), $enc::TRUST ) ?></div>
+						<div class="supplier"><?= $enc->html( $suppliers->getName()->first() ) ?></div>
 					<?php endif ?>
 
-					<h2 itemprop="name"><?= $enc->html( $productItem->getName(), $enc::TRUST ) ?></h2>
+					<h2 itemprop="name"><?= $enc->html( $productItem->getName() ) ?></h2>
 
 					<?php foreach( $productItem->getRefItems( 'text', 'short', 'default' ) as $textItem ) : ?>
 						<div class="text-item" itemprop="description">
